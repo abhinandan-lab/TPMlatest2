@@ -97,5 +97,6 @@ define('EVENT_PRIORITY_HIGH', 10);
 // email to sent otp and all
 define('ADMIN_EMAIL', 'ar253336@gmail.com');
 // define('IS_USER_LOGGED', 'ar253336@gmail.com');
-
-// define('ASSETS', ($baseurl.('/assets/'));
+// $base = base_url();
+// $assts = $base.`/asset/`;
+// define('ASSETS', $assts);
