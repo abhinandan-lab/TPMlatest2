@@ -13,7 +13,9 @@
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <title>Document</title>
 
-    <link rel="stylesheet" href="<?=base_url();?>/css/main.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <!-- <link rel="stylesheet" href="<?=base_url();?>/css/main.css"> -->
+    <link rel="stylesheet" href="abcd/dfkhj"></link>
 
     <style>
         * {
