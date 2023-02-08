@@ -5,12 +5,22 @@
 
     <?php
         $session = \Config\Services::session();
+        $request = \Config\Services::request();
 
         // echo '<pre>';
         print_r($newprofile);
 
         $pics = $newprofile['pics'];
         echo $pics[0]['img_path'];
+    
+        echo '<pre>';
+        $path =  WRITEPATH.$pics[0]['img_path'];
+        echo '<br>';
+        $file = new \CodeIgniter\Files\File($path);
+        $newf = $request->getFiles();
+        // print_r($file);
+        print_r($newf);
+        
         // exit;
         // print_r($newprofile);
     ?>

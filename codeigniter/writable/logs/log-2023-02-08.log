@@ -34,3 +34,374 @@ INFO - 2023-02-08 03:53:13 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2023-02-08 03:53:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-02-08 03:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-02-08 03:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 04:04:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 04:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 04:04:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 04:05:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 04:05:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 04:08:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 04:08:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 04:09:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 04:10:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 04:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-08 04:24:15 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH\Views\User\profiles.php on line 19.
+ 1 APPPATH\Views\User\profiles.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH\\Views\\User\\profiles.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(27): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-02-08 04:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-08 04:25:27 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH\Views\User\profiles.php on line 20.
+ 1 APPPATH\Views\User\profiles.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH\\Views\\User\\profiles.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(27): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-02-08 04:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-08 04:25:28 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH\Views\User\profiles.php on line 20.
+ 1 APPPATH\Views\User\profiles.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH\\Views\\User\\profiles.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(27): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-02-08 04:25:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-08 04:25:29 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH\Views\User\profiles.php on line 20.
+ 1 APPPATH\Views\User\profiles.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH\\Views\\User\\profiles.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(27): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-02-08 04:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-08 04:25:30 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH\Views\User\profiles.php on line 20.
+ 1 APPPATH\Views\User\profiles.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH\\Views\\User\\profiles.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(27): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-02-08 04:25:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 04:36:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 04:36:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 04:36:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 04:36:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 04:36:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 04:36:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-08 04:42:23 --> file_get_contents(C:\xampp\htdocs\TPMlatest\codeigniter\writable\uploads/3): Failed to open stream: No such file or directory
+in APPPATH\Controllers\RenderImage.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\TPMlatest\\codeigniter\\writable\\uploads/3): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\RenderImage.php', 11)
+ 2 APPPATH\Controllers\RenderImage.php(11): file_get_contents('ROOTPATH\\writable\\uploads/3')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RenderImage->index('3')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RenderImage))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 04:42:39 --> file_get_contents(C:\xampp\htdocs\TPMlatest\codeigniter\writable\uploads/3): Failed to open stream: No such file or directory
+in APPPATH\Controllers\RenderImage.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\TPMlatest\\codeigniter\\writable\\uploads/3): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\RenderImage.php', 11)
+ 2 APPPATH\Controllers\RenderImage.php(11): file_get_contents('ROOTPATH\\writable\\uploads/3')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RenderImage->index('3')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RenderImage))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 04:42:40 --> file_get_contents(C:\xampp\htdocs\TPMlatest\codeigniter\writable\uploads/3): Failed to open stream: No such file or directory
+in APPPATH\Controllers\RenderImage.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\TPMlatest\\codeigniter\\writable\\uploads/3): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\RenderImage.php', 11)
+ 2 APPPATH\Controllers\RenderImage.php(11): file_get_contents('ROOTPATH\\writable\\uploads/3')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RenderImage->index('3')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RenderImage))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 04:42:40 --> file_get_contents(C:\xampp\htdocs\TPMlatest\codeigniter\writable\uploads/3): Failed to open stream: No such file or directory
+in APPPATH\Controllers\RenderImage.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\TPMlatest\\codeigniter\\writable\\uploads/3): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\RenderImage.php', 11)
+ 2 APPPATH\Controllers\RenderImage.php(11): file_get_contents('ROOTPATH\\writable\\uploads/3')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RenderImage->index('3')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RenderImage))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 04:42:41 --> file_get_contents(C:\xampp\htdocs\TPMlatest\codeigniter\writable\uploads/3): Failed to open stream: No such file or directory
+in APPPATH\Controllers\RenderImage.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\TPMlatest\\codeigniter\\writable\\uploads/3): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\RenderImage.php', 11)
+ 2 APPPATH\Controllers\RenderImage.php(11): file_get_contents('ROOTPATH\\writable\\uploads/3')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RenderImage->index('3')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RenderImage))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 04:42:41 --> file_get_contents(C:\xampp\htdocs\TPMlatest\codeigniter\writable\uploads/3): Failed to open stream: No such file or directory
+in APPPATH\Controllers\RenderImage.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\TPMlatest\\codeigniter\\writable\\uploads/3): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\RenderImage.php', 11)
+ 2 APPPATH\Controllers\RenderImage.php(11): file_get_contents('ROOTPATH\\writable\\uploads/3')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RenderImage->index('3')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RenderImage))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 04:42:42 --> file_get_contents(C:\xampp\htdocs\TPMlatest\codeigniter\writable\uploads/3): Failed to open stream: No such file or directory
+in APPPATH\Controllers\RenderImage.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\TPMlatest\\codeigniter\\writable\\uploads/3): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\RenderImage.php', 11)
+ 2 APPPATH\Controllers\RenderImage.php(11): file_get_contents('ROOTPATH\\writable\\uploads/3')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RenderImage->index('3')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RenderImage))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 04:42:42 --> file_get_contents(C:\xampp\htdocs\TPMlatest\codeigniter\writable\uploads/3): Failed to open stream: No such file or directory
+in APPPATH\Controllers\RenderImage.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\TPMlatest\\codeigniter\\writable\\uploads/3): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\RenderImage.php', 11)
+ 2 APPPATH\Controllers\RenderImage.php(11): file_get_contents('ROOTPATH\\writable\\uploads/3')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RenderImage->index('3')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RenderImage))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 04:44:11 --> file_get_contents(C:\xampp\htdocs\TPMlatest\codeigniter\writable\uploads/3): Failed to open stream: No such file or directory
+in APPPATH\Controllers\RenderImage.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\TPMlatest\\codeigniter\\writable\\uploads/3): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\RenderImage.php', 11)
+ 2 APPPATH\Controllers\RenderImage.php(11): file_get_contents('ROOTPATH\\writable\\uploads/3')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RenderImage->index('3')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RenderImage))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 04:44:37 --> mime_content_type(1675018316_a60305e9bbfbf75f0fb1.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\RenderImage.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mime_content_type(1675018316_a60305e9bbfbf75f0fb1.png): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\RenderImage.php', 15)
+ 2 APPPATH\Controllers\RenderImage.php(15): mime_content_type('1675018316_a60305e9bbfbf75f0fb1.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RenderImage->index('1675018316_a60305e9bbfbf75f0fb1.png')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RenderImage))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 04:45:10 --> mime_content_type(1675018316_a60305e9bbfbf75f0fb1.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\RenderImage.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mime_content_type(1675018316_a60305e9bbfbf75f0fb1.png): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\RenderImage.php', 15)
+ 2 APPPATH\Controllers\RenderImage.php(15): mime_content_type('1675018316_a60305e9bbfbf75f0fb1.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RenderImage->index('1675018316_a60305e9bbfbf75f0fb1.png')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RenderImage))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 04:45:11 --> mime_content_type(1675018316_a60305e9bbfbf75f0fb1.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\RenderImage.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mime_content_type(1675018316_a60305e9bbfbf75f0fb1.png): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\RenderImage.php', 15)
+ 2 APPPATH\Controllers\RenderImage.php(15): mime_content_type('1675018316_a60305e9bbfbf75f0fb1.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RenderImage->index('1675018316_a60305e9bbfbf75f0fb1.png')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RenderImage))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 04:45:11 --> mime_content_type(1675018316_a60305e9bbfbf75f0fb1.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\RenderImage.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mime_content_type(1675018316_a60305e9bbfbf75f0fb1.png): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\RenderImage.php', 15)
+ 2 APPPATH\Controllers\RenderImage.php(15): mime_content_type('1675018316_a60305e9bbfbf75f0fb1.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RenderImage->index('1675018316_a60305e9bbfbf75f0fb1.png')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RenderImage))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 04:45:12 --> mime_content_type(1675018316_a60305e9bbfbf75f0fb1.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\RenderImage.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mime_content_type(1675018316_a60305e9bbfbf75f0fb1.png): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\RenderImage.php', 15)
+ 2 APPPATH\Controllers\RenderImage.php(15): mime_content_type('1675018316_a60305e9bbfbf75f0fb1.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RenderImage->index('1675018316_a60305e9bbfbf75f0fb1.png')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RenderImage))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 04:45:12 --> mime_content_type(1675018316_a60305e9bbfbf75f0fb1.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\RenderImage.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mime_content_type(1675018316_a60305e9bbfbf75f0fb1.png): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\RenderImage.php', 15)
+ 2 APPPATH\Controllers\RenderImage.php(15): mime_content_type('1675018316_a60305e9bbfbf75f0fb1.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RenderImage->index('1675018316_a60305e9bbfbf75f0fb1.png')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RenderImage))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 04:45:12 --> mime_content_type(1675018316_a60305e9bbfbf75f0fb1.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\RenderImage.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mime_content_type(1675018316_a60305e9bbfbf75f0fb1.png): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\RenderImage.php', 15)
+ 2 APPPATH\Controllers\RenderImage.php(15): mime_content_type('1675018316_a60305e9bbfbf75f0fb1.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RenderImage->index('1675018316_a60305e9bbfbf75f0fb1.png')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RenderImage))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 04:45:13 --> mime_content_type(1675018316_a60305e9bbfbf75f0fb1.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\RenderImage.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mime_content_type(1675018316_a60305e9bbfbf75f0fb1.png): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\RenderImage.php', 15)
+ 2 APPPATH\Controllers\RenderImage.php(15): mime_content_type('1675018316_a60305e9bbfbf75f0fb1.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RenderImage->index('1675018316_a60305e9bbfbf75f0fb1.png')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RenderImage))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 04:45:13 --> mime_content_type(1675018316_a60305e9bbfbf75f0fb1.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\RenderImage.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mime_content_type(1675018316_a60305e9bbfbf75f0fb1.png): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\RenderImage.php', 15)
+ 2 APPPATH\Controllers\RenderImage.php(15): mime_content_type('1675018316_a60305e9bbfbf75f0fb1.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RenderImage->index('1675018316_a60305e9bbfbf75f0fb1.png')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RenderImage))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 04:45:13 --> mime_content_type(1675018316_a60305e9bbfbf75f0fb1.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\RenderImage.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mime_content_type(1675018316_a60305e9bbfbf75f0fb1.png): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\RenderImage.php', 15)
+ 2 APPPATH\Controllers\RenderImage.php(15): mime_content_type('1675018316_a60305e9bbfbf75f0fb1.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RenderImage->index('1675018316_a60305e9bbfbf75f0fb1.png')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RenderImage))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 04:45:14 --> mime_content_type(1675018316_a60305e9bbfbf75f0fb1.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\RenderImage.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mime_content_type(1675018316_a60305e9bbfbf75f0fb1.png): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\RenderImage.php', 15)
+ 2 APPPATH\Controllers\RenderImage.php(15): mime_content_type('1675018316_a60305e9bbfbf75f0fb1.png')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RenderImage->index('1675018316_a60305e9bbfbf75f0fb1.png')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RenderImage))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 04:46:26 --> file_get_contents(C:\xampp\htdocs\TPMlatest\codeigniter\writable\uploads/3): Failed to open stream: No such file or directory
+in APPPATH\Controllers\RenderImage.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(C:\\xampp\\htdocs\\TPMlatest\\codeigniter\\writable\\uploads/3): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\RenderImage.php', 11)
+ 2 APPPATH\Controllers\RenderImage.php(11): file_get_contents('ROOTPATH\\writable\\uploads/3')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RenderImage->index('3')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RenderImage))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 04:48:54 --> Call to undefined function App\Controllers\getMimeType()
+in APPPATH\Controllers\RenderImage.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RenderImage->index('1675018316_a60305e9bbfbf75f0fb1.png')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RenderImage))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 04:56:07 --> Call to undefined function App\Controllers\getMimeType()
+in APPPATH\Controllers\RenderImage.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RenderImage->index('1675018316_a60305e9bbfbf75f0fb1.png')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RenderImage))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 04:56:08 --> Call to undefined function App\Controllers\getMimeType()
+in APPPATH\Controllers\RenderImage.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RenderImage->index('1675018316_a60305e9bbfbf75f0fb1.png')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RenderImage))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 04:56:09 --> Call to undefined function App\Controllers\getMimeType()
+in APPPATH\Controllers\RenderImage.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RenderImage->index('1675018316_a60305e9bbfbf75f0fb1.png')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RenderImage))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 04:56:09 --> Call to undefined function App\Controllers\getMimeType()
+in APPPATH\Controllers\RenderImage.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RenderImage->index('1675018316_a60305e9bbfbf75f0fb1.png')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RenderImage))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 04:56:21 --> Call to undefined function App\Controllers\getMimeType()
+in APPPATH\Controllers\RenderImage.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RenderImage->index('1675018316_a60305e9bbfbf75f0fb1.png')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RenderImage))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 04:56:21 --> Call to undefined function App\Controllers\getMimeType()
+in APPPATH\Controllers\RenderImage.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RenderImage->index('1675018316_a60305e9bbfbf75f0fb1.png')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RenderImage))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 04:59:46 --> Undefined variable $fileName
+in APPPATH\Controllers\RenderImage.php on line 18.
+ 1 APPPATH\Controllers\RenderImage.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $fileName', 'APPPATH\\Controllers\\RenderImage.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RenderImage->index('1675018316_a60305e9bbfbf75f0fb1.png')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RenderImage))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-02-08 05:04:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 05:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-08 05:04:43 --> Undefined variable $routes
+in APPPATH\Controllers\RenderImage.php on line 15.
+ 1 APPPATH\Controllers\RenderImage.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $routes', 'APPPATH\\Controllers\\RenderImage.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RenderImage->index('1675018316_a60305e9bbfbf75f0fb1.png')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RenderImage))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 05:06:12 --> Class "App\Controllers\Services" not found
+in APPPATH\Controllers\RenderImage.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RenderImage->index('1675018316_a60305e9bbfbf75f0fb1.png')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RenderImage))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 05:06:13 --> Class "App\Controllers\Services" not found
+in APPPATH\Controllers\RenderImage.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RenderImage->index('1675018316_a60305e9bbfbf75f0fb1.png')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RenderImage))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 05:06:13 --> Class "App\Controllers\Services" not found
+in APPPATH\Controllers\RenderImage.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RenderImage->index('1675018316_a60305e9bbfbf75f0fb1.png')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RenderImage))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 05:06:14 --> Class "App\Controllers\Services" not found
+in APPPATH\Controllers\RenderImage.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RenderImage->index('1675018316_a60305e9bbfbf75f0fb1.png')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RenderImage))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 05:06:14 --> Class "App\Controllers\Services" not found
+in APPPATH\Controllers\RenderImage.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RenderImage->index('1675018316_a60305e9bbfbf75f0fb1.png')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RenderImage))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 05:06:14 --> Class "App\Controllers\Services" not found
+in APPPATH\Controllers\RenderImage.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RenderImage->index('1675018316_a60305e9bbfbf75f0fb1.png')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RenderImage))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 05:06:15 --> Class "App\Controllers\Services" not found
+in APPPATH\Controllers\RenderImage.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RenderImage->index('1675018316_a60305e9bbfbf75f0fb1.png')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RenderImage))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-08 05:07:03 --> Class "App\Controllers\Config\Services" not found
+in APPPATH\Controllers\RenderImage.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RenderImage->index('1675018316_a60305e9bbfbf75f0fb1.png')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RenderImage))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-02-08 05:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 05:07:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 05:07:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 05:07:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 05:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 05:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 05:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 05:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 05:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 05:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 05:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 05:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 05:09:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 05:09:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 05:09:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 05:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 05:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 05:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 05:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 05:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-08 05:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

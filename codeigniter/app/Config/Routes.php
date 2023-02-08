@@ -32,6 +32,8 @@ $routes->set404Override();
 
 // starting from Register to profiles
 
+
+
 $routes->get('/', 'Home::register');
 $routes->post('register', 'Home::register');
  
@@ -81,9 +83,9 @@ $routes->group('', ['filter' => 'userfilter'], function ($routes) {
 });
 
 
-$routes->match(['get', 'post'], 'imageRender/(:segment)', 'RenderImage::index/$1');
 
 $routes->group('', ['filter' => 'profilefilter'], function ($routes) { 
+    $routes->match(['get', 'post'], 'imagerender/(:segment)', 'RenderImage::index/$1');
     $routes->get('profiles', 'ProfileController::index');
 });
 
