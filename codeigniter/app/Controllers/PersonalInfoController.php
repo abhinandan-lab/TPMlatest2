@@ -27,6 +27,7 @@ class PersonalInfoController extends BaseController
 
         if (strtolower($this->request->getMethod()) !== 'post') {
             // get request
+
             return view('User/getprofileinfo1', [
                 'validation' => null,
                 'data' => $data]);
@@ -37,7 +38,7 @@ class PersonalInfoController extends BaseController
                 'rules' => 'required|alpha',
                 'errors' => [
                     'required' => 'please enter your first name',
-                    'alpha' => 'Please enter alphabets only',
+                    'alpha' => 'Please enter alphabets only without space ',
                 ],
             ],
 
@@ -45,7 +46,7 @@ class PersonalInfoController extends BaseController
                 'rules' => 'required|alpha',
                 'errors' => [
                     'required' => 'please enter your last name',
-                    'alpha' => 'Please enter alphabets only',
+                    'alpha' => 'Please enter alphabets only without space',
                 ],
             ],
 
@@ -93,7 +94,8 @@ class PersonalInfoController extends BaseController
         // check if email is verified or not
         checkEmailverified(new User(), $userid);
 
-        $data = null;
+        $data['countries'] = getCountries();
+        $data['occupation'] = occupation();
 
         if (strtolower($this->request->getMethod()) !== 'post') {
             // get request
@@ -170,7 +172,7 @@ class PersonalInfoController extends BaseController
             'whatnumber' => [
                 'rules' => 'required|numeric|max_length[10]|min_length[10]',
                 'errors' => [
-                    'required' => 'Choose country',
+                    'required' => 'Whatsapp number or Phone number is required',
                     'numeric' => 'Please enter valid phone number',
                     'max_length' => 'Please enter 10 digit phone number',
                     'min_length' => 'Please enter 10 digit phone number',
@@ -230,7 +232,7 @@ class PersonalInfoController extends BaseController
             'myfile' => [
                 'rules' => 'uploaded[myfile.0]|is_image[myfile]',
                 'errors' => [
-                    'uploaded' => 'Choose your picture',
+                    'uploaded' => 'Choose your picture, atleast one',
                     'is_image' => 'Only image files are allowed',
                 ],
             ],
@@ -258,7 +260,7 @@ class PersonalInfoController extends BaseController
                     'user_id' => $session->get('user_id'),
                     // Note: WRITEPATH we can't use because its stores the localhost path
                     // but when we will fetch the images we will use WRITEPATH because images are store there...
-                    'img_path' => 'uploads/' . $newName,
+                    'img_name' => $newName,
                 ];
 
                 $userPhotomodel->insert($currentImg);

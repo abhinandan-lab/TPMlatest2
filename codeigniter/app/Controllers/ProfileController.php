@@ -20,10 +20,11 @@ class ProfileController extends BaseController
         $newProfile = $query->getResultArray();
         $newProfile =$newProfile[0];
 
-       $pics = $db->query('SELECT img_path FROM user_photo where user_id=1');
+       $pics = $db->query('SELECT img_name FROM user_photo where user_id=1');
        $pics =$pics->getResultArray();
        $newProfile['pics'] = $pics;
 
         return view('User/profiles', ['newprofile' => $newProfile]);
+        // return view('User/profiles');
     }
 }

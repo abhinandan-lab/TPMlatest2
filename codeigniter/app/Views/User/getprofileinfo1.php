@@ -68,7 +68,7 @@
 
                     <div class="select mb">
                         <select name="height" id="height">
-                            <option selected disabled value="volvo">Select Height</option>
+                            <option selected disabled>Select Height</option>
                             <?php foreach($heights as $key => $value) { ?>
                                 <option <?php if (set_value('height') == $key) {echo 'selected';}?> value="<?= $key ?>" > <?= $key ?> cm &nbsp; ( <?=$value?> f ) </option>
                              <?php } ?>
@@ -78,9 +78,9 @@
 
                     <div class="select mb">
                         <select name="weight" id="weight">
-                            <option selected disabled value="volvo">Select Weight</option>
+                            <option selected disabled>Select Weight</option>
                             <?php foreach($weights as $key => $value) { ?>
-                                <option <?php if (set_value('weight') == $value) {echo 'selected';}?>  value="<?= $key ?>" > <?= $value ?> kg </option>
+                                <option <?php if (set_value('weight') == $key) {echo 'selected';}?>  value="<?= $key ?>" > <?= $value ?> kg </option>
                              <?php } ?>
 
                         </select>

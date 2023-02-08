@@ -85,6 +85,8 @@ $routes->group('', ['filter' => 'userfilter'], function ($routes) {
 
 
 $routes->group('', ['filter' => 'profilefilter'], function ($routes) { 
+
+    // render images which are need to be secured
     $routes->match(['get', 'post'], 'imagerender/(:segment)', 'RenderImage::index/$1');
     $routes->get('profiles', 'ProfileController::index');
 });

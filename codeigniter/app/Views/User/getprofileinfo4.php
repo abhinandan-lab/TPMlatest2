@@ -21,7 +21,6 @@
                     if (isset($validation)) {
 
                         $validation->listErrors();
-                        print_r($validation->listErrors());
                     }
 
                     $session = \Config\Services::session();
@@ -36,7 +35,7 @@
                     </div>
 
                     <div class="input-pic mb">
-                        <label for="myfile">Select your photos one bye one, atleast one is compulsory</label>
+                        <label for="myfile">Select your photos, atleast one is compulsory</label>
                         <input type="file" id="files" name="myfile[]" multiple="multiple">
                         <span class="error"><?=display_error($validation, 'myfile')?></span>
                     </div>

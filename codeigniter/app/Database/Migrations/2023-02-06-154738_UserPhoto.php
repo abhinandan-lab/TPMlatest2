@@ -15,7 +15,7 @@ class UserPhoto extends Migration
                     'auto_increment' => TRUE
             ],
 
-            'img_path' => [
+            'img_name' => [
                 'type' => 'VARCHAR',
                 'constraint' => 500,
             ],

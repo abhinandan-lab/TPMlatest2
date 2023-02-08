@@ -14,7 +14,7 @@ class UserPhoto extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['img_path', 'user_id',];
+    protected $allowedFields    = ['img_name', 'user_id',];
 
     // Dates
     protected $useTimestamps = false;

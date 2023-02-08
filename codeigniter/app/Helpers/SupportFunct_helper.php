@@ -167,31 +167,42 @@ function cm_to_feet_converter($cmValue, $formated = true)
 
 function get_country_name($countryid)
 {
-    $db = \Config\Database::connect();
+    if (isset($countryid)) {
+        $db = \Config\Database::connect();
+        $db = db_connect();
+        $query = $db->query('select name from countries where id=' . $countryid . '; ');
+        $query = $query->getResultArray();
+        return $query[0]['name'];
+    }
 
-    $db = db_connect();
-    $query = $db->query('select name from countries where id=' . $countryid . '; ');
-    $query = $query->getResultArray();
-    return $query[0]['name'];
+    return 'Unknown';
 }
 
 function get_state_name($stateid)
 {
-    $db = \Config\Database::connect();
+    if (isset($stateid)) {
+        $db = \Config\Database::connect();
+        $db = db_connect();
+        $query = $db->query('select name from states where id=' . $stateid . '; ');
+        $query = $query->getResultArray();
+        return $query[0]['name'];
+    }
 
-    $db = db_connect();
-    $query = $db->query('select name from states where id=' . $stateid . '; ');
-    $query = $query->getResultArray();
-    return $query[0]['name'];
+    return 'Unknown';
 }
 
 function get_city_name($cityid)
 {
     $db = \Config\Database::connect();
     $db = db_connect();
-    $query = $db->query('select name from cities where id=' . $cityid . '; ');
-    $query = $query->getResultArray();
-    return $query[0]['name'];
+    if (isset($cityid)) {
+        $query = $db->query('select name from cities where id=' . $cityid . '; ');
+        $query = $query->getResultArray();
+        if (isset($query[0])) {
+            return $query[0]['name'];
+        }
+    }
+    return 'Unknown';
 }
 
 function formated_date($date_Y_m_d)
@@ -202,51 +213,74 @@ function formated_date($date_Y_m_d)
     return $new_date;
 }
 
-function testy(){
-    return occupation();
+function get_occupation($dbvalue)
+{
+    $myarr = explode("|", $dbvalue);
+    $getparticular = occupation();
+
+    if (isset($myarr[1])) {
+        return $getparticular[$myarr[0]][$myarr[1]];
+    }
+
+    return 'occupation Unknown';
 }
 
-
-function get_occupation($dbvalue) {
-   $myarr = explode("|",$dbvalue);
-   $getparticular = occupation();
-   return $getparticular[$myarr[0]][$myarr[1]];
-}
-
-function get_education($dbvalue) {
-    $myarr = explode("|",$dbvalue);
+function get_education($dbvalue)
+{
+    $myarr = explode("|", $dbvalue);
     $getparticular = qualifications();
-    return $getparticular[$myarr[0]][$myarr[1]];
- }
 
- function get_whatsapNumber($accountType, $number, $spareCharacters = 3) {
+    if (isset($myarr[1])) {
+        return $getparticular[$myarr[0]][$myarr[1]];
+    }
 
-    if($accountType>0) {
+    return 'education Unknown';
+}
+
+function get_whatsapNumber($accountType, $number, $spareCharacters = 3)
+{
+
+    if ($accountType > 0) {
         // premium member
         return $number;
     }
 
-    return preg_replace('/(?<=\S{'.$spareCharacters.'})\S/', '*', $number);
- }
+    return preg_replace('/(?<=\S{' . $spareCharacters . '})\S/', '*', $number);
+}
 
- function get_emailaddress($accountType, $email, $spareCharacters = 3) {
+function get_emailaddress($accountType, $email, $spareCharacters = 3)
+{
 
-    if($accountType>0) {
+    if ($accountType > 0) {
         // premium member
         return $email;
     }
-    return preg_replace('/(?<=\S{'.$spareCharacters.'})\S/', '*', $email);
- }
+    return preg_replace('/(?<=\S{' . $spareCharacters . '})\S/', '*', $email);
+}
 
- function get_weight($index) {
-     $arrayWeight = weight();
+function get_weight($index)
+{
+    if (isset($index)) {
+        $arrayWeight = weight();
+        $count = count($arrayWeight);
+        return $arrayWeight[$index];
 
-     $count = count($arrayWeight);
-    //  if($index > $count)
-     // return $arrayWeight[(int)$index];
-    //  return $arrayWeight[$index];
-    if($index > $count-1) {
-        return null;
+        if ($index >= $count) {
+            return 'error';
+        }
     }
-    return $count;
- }
+}
+
+function get_images_with_path($picsArr, $returnSingleImg = true)
+{
+    if (isset($picsArr)) {
+        if ($returnSingleImg) {
+            if (isset($picsArr[0])) {
+
+                return 'imagerender/'.$picsArr[0]['img_name'];
+            }
+        } else {
+            return $picsArr;
+        }
+    }
+}

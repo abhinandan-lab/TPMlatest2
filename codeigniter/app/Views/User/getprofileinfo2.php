@@ -55,7 +55,7 @@
 
                     <div class="select mb">
                         <select name="city" id="city">
-                            <option selected disabled >City</option>
+                            <option selected disabled >All City</option>
 
                         </select>
                         <span class="error"><?=display_error($validation, 'city')?></span>
@@ -113,7 +113,7 @@
                 // console.log(JSON.parse(result));
                 let myarr = JSON.parse(result);
 
-                document.querySelector('#state').innerHTML = ' <option selected disabled>State*</option>';
+                document.querySelector('#state').innerHTML = ' <option selected disabled>All State*</option>';
                 myarr.forEach(element => {
                     document.querySelector('#state').innerHTML += '<option value="' + element.id + '"> '+ element.name +'</option>';
                 });
@@ -131,7 +131,7 @@
                 // console.log(JSON.parse(result));
                 let myarr = JSON.parse(result);
 
-                document.querySelector('#city').innerHTML = ' <option selected disabled>City</option>';
+                document.querySelector('#city').innerHTML = ' <option selected disabled>All Cities</option>';
                 myarr.forEach(element => {
                     document.querySelector('#city').innerHTML += '<option value="' + element.id + '"> '+ element.name +'</option>';
                 });

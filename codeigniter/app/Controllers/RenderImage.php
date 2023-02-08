@@ -10,14 +10,6 @@ class RenderImage extends BaseController
 
     public function index($imageName)
     {
-        $routes = \Config\Services::routes();
-
-        // if(!session()->has('userLoggedin')){
-        //     $routes->set404Override('App\Errors::show404');
-        // }
-
-
-
 
         if(($image = file_get_contents(WRITEPATH.'uploads/'.$imageName)) === FALSE)
             show_404();
