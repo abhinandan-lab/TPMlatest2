@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+</head>
+
+<body>
+
+    <!-- ======= header ========== -->
+    <div class="container header ">
+        <h1> <a href="#" class="logo">TPM</a></h1>
+        <nav class="">
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <style>
+
+        #preview img {
+            height: 150px;
+        }
+
+    </style>
+
+
+    <!-- ========== hero section ============== -->
+    <section class="container hero ">
+        <div class="left b">
+            <!-- verse -->
+            <h2>One page Bootstrap website Template</h2>
+            <h6>One page Bootst</h2>
+                <button class="readmore">Read More</button>
+        </div>
+
+        <div class="hero-form ">
+            <!-- register form -->
+
+            <form action="">
+
+                <h4 class="heading">Last one... Add your profile photo</h4>
+
+                <div class="mb photo-set">
+                    <div class="cell">
+                        <img src="/images/download.jpeg" alt="">
+                    </div>
+
+                    <div class="cell">
+                        <img src="/images/download.jpeg" alt="">
+                    </div>
+
+                    <div class="cell">
+                        <img src="/images/download.jpeg" alt="">
+                    </div>
+
+                    <div id="preview"></div>
+                </div>
+
+                <div class="input-pic mb">
+                    <label for="myfile">Select your photos, atleast one is compulsory</label>
+                    <input type="file" id="files" name="myfile" accept="image/*" multiple>
+                </div>
+
+
+
+
+                <div class="submit">
+                    <input type="submit" value="Finish">
+                </div>
+            </form>
+
+
+            <div class="otplink">
+
+                <a href="#">Go back </a>
+            </div>
+
+
+        </div>
+    </section>
+
+</body>
+
+<script>
+
+    const preview = (file) => {
+        const fr = new FileReader();
+        fr.onload = () => {
+            const img = document.createElement("img");
+            img.src = fr.result;  // String Base64 
+            img.alt = file.name;
+            document.querySelector('#preview').append(img);
+        };
+        fr.readAsDataURL(file);
+    };
+
+    document.querySelector("#files").addEventListener("change", (ev) => {
+        if (!ev.target.files) return; // Do nothing.
+        [...ev.target.files].forEach(preview);
+    });
+
+</script>
+
+</html>

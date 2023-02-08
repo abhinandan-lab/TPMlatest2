@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.min.js"
+        integrity="sha512-WJXVjqeINVpi5XXJ2jn0BSCfp0y80IKrYh731gLRnkAS9TKc5KNt/OfLtu+fCueqdWniouJ1ubM+VI/hbo7POQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+
+    <style>
+
+        input {
+            margin: 0px;
+            /* position: absolute; */
+        }
+
+        .inputs {
+            border: 1px solid black;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        label {
+            padding: 5px;
+        }
+        
+        .main {
+            position: relative;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0;
+            padding: 15px;
+        }
+
+        #a {
+            -webkit-appearance: none;
+            appearance: none;
+            background: lightgray;
+            background: linear-gradient(90deg, green 50%, lightgray 0);
+            height: 8px;
+            /* width: 400px; */
+        }
+        
+        #ab {
+            height: 8px;
+            -webkit-appearance: none;
+            appearance: none;
+            background: lightgray;
+            background: linear-gradient(to right, lightgray 5%, red 5%, red 25%, lightgray 25%);
+        }
+    </style>
+
+    <div class="main">
+        <label class="b" for="">15</label>
+        <div class="inputs">
+            
+            <input id="a" type="range" min="15" max="65" oninput="aa()">
+            <input id="ab" type="range" min="15" max="65" oninput="bb()">
+        </div>
+        <label class="a" for="">65</label>
+
+    </div>
+
+
+    <script>
+
+        let a = document.querySelector('#a');
+        let alabel = document.querySelector('.a');
+        // a.style.background = 'linear-gradient(90deg, green ' + (a.value - a.min) * 100 / (a.max - a.min) + '%, lightgrey 0)';
+        console.log(a.value);
+
+
+        function aa() {
+            let calc = (a.value - a.min) * 100 / (a.max - a.min);
+            console.log(a.value + '|' + calc);
+            a.style.background = 'linear-gradient(90deg, green ' + calc + '%, lightgrey 0)';
+            // alabel.innerHTML = calc;
+
+
+        }
+
+        let blabel = document.querySelector('.b');
+        function bb() {
+            blabel.innerHTML = document.querySelector('#b').value;
+        }
+
+    </script>
+</body>
+
+</html>

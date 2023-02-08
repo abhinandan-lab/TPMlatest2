@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JESUS </title>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <!-- <link rel="stylesheet" href="/resources/demos/style.css"> -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <link rel="stylesheet" href="css/setting.css">
+
+
+</head>
+
+<body>
+
+    <script>
+        $(function () {
+            $("#slider-range-age").slider({
+                range: true,
+                min: 10,
+                max: 50,
+                values: [15, 45],
+                slide: function (event, ui) {
+                    $(".ageinfo:first-child").html(ui.values[0] + " - " + ui.values[1]);
+
+                    $('#min-age-val').val($('#slider-range-age').slider("values")[0]);
+                    $('#max-age-val').val($('#slider-range-age').slider("values")[1]);
+                }
+            });
+            $('.ageinfo:first-child').html($('#slider-range-age').slider("values")[0] + " - " + $('#slider-range-age').slider("values")[1]);
+        });
+
+
+        // age
+        $(function () {
+            $("#slider-range-height").slider({
+                range: true,
+                min: 10,
+                max: 50,
+                values: [15, 45],
+                slide: function (event, ui) {
+                    $(".heightinfo:first-child").html(ui.values[0] + "cm - " + ui.values[1] + "cm");
+
+                    $('#min-height-val').val($('#slider-range-height').slider("values")[0]);
+                    $('#max-eight-val').val($('#slider-range-height').slider("values")[1]);
+                }
+            });
+            $('.heightinfo:first-child').html($('#slider-range-height').slider("values")[0] + "cm - " + $('#slider-range-height').slider("values")[1] + "cm");
+        });
+    </script>
+
+    <!-- ======= header ========== -->
+
+    <!-- starting fornt end from now  -->
+
+
+
+    <section class="profile">
+
+        <div class="head">
+
+
+            <div class="primary-nav">
+                <a href="#" class="active">
+                    <i class="fa-solid fa-house"></i>
+                    <p>Premium</p>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-user-group"></i>
+                    <p>Matches</p>
+                </a>
+
+                <a href="#">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>Inbox</p>
+                </a>
+
+                <a href="#">
+                    <i class="fa-solid fa-house"></i>
+                    <p>Home</p>
+                </a>
+            </div>
+
+            <div class="secondary-nav">
+                <ul>
+                    <li class="active">
+                        <a href="#">Dashboard</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Settings</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Partner Preferences</a>
+                    </li>
+                    <li>
+                        <a href="#">search</a>
+                    </li>
+
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="foot">
+
+            <div class="container">
+                <div class="top">
+                    <img src="/images/download.jpeg" alt="">
+                </div>
+
+                <div class="nameinfo">
+                    <h2>Ranjan kumari </h2>
+                    <p>Edit Preference</p>
+                    <div class="mb2"></div>
+                </div>
+
+                <form>
+                    <div class="aboutme mb2 editpartner">
+                        <div>
+                            <label>Age</label>
+                            <div class="rangebox">
+                                <div class="ageinfo">
+                                    <p>14</p>
+                                </div>
+                                <div id="slider-range-age"></div>
+
+                                <input type="hidden" value="" name="min-age" id="min-age-val">
+                                <input type="hidden" value="" name="max-age" id="max-age-val">
+                            </div>
+
+                            <label>Height</label>
+                            <div class="rangebox">
+                                <div class="heightinfo">
+                                    <p>14</p>
+                                </div>
+                                <div id="slider-range-height"></div>
+
+                                <input type="hidden" value="" name="min-height" id="min-height-val">
+                                <input type="hidden" value="" name="max-height" id="max-height-val">
+                            </div>
+
+
+                            <label>Language</label>
+                            <div class="rangebox">
+                                <div class="multisel">
+                                    <select style="width:100%;" class="js-example-basic-multiple" name="states[]" multiple="multiple">
+                                        <option value="AL">Hindi</option>
+                                        <option value="WY">Englsih</option>
+                                        <option value="WY">Marathi</option>
+                                        <option value="WY">Telegu</option>
+                                        <option value="WY">Tamil</option>
+                                        <option value="WY">Malayalm</option>
+                                        <option value="WY">Bengali</option>
+                                        <option value="WY">Gujrati</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="loadmore">
+                                <a href="#" class="btn">Load more</a>
+                            </div>
+
+                            <div class="foldable">
+                                <label>Country</label>
+                                <div class="rangebox">
+                                    <div class="multisel">
+                                        <select style="width:100%;" class="js-example-basic-multiple" name="states[]" multiple="multiple">
+                                            <option value="AL">Hindi</option>
+                                            <option value="WY">Englsih</option>
+                                            <option value="WY">Marathi</option>
+                                            <option value="WY">Telegu</option>
+                                            <option value="WY">Tamil</option>
+                                            <option value="WY">Malayalm</option>
+                                            <option value="WY">Bengali</option>
+                                            <option value="WY">Gujrati</option>
+                                        </select>
+                                    </div>
+                                </div>
+    
+                                <label>State</label>
+                                <div class="rangebox">
+                                    <div class="multisel">
+                                        <select style="width:100%;" class="js-example-basic-multiple" name="states[]" multiple="multiple">
+                                            <option value="AL">Hindi</option>
+                                            <option value="WY">Englsih</option>
+                                            <option value="WY">Marathi</option>
+                                            <option value="WY">Telegu</option>
+                                            <option value="WY">Tamil</option>
+                                            <option value="WY">Malayalm</option>
+                                            <option value="WY">Bengali</option>
+                                            <option value="WY">Gujrati</option>
+                                        </select>
+                                    </div>
+                                </div>
+    
+                                <label>City</label>
+                                <div class="rangebox">
+                                    <div class="multisel">
+                                        <select style="width:100%;" class="js-example-basic-multiple" name="states[]" multiple="multiple">
+                                            <option value="AL">Hindi</option>
+                                            <option value="WY">Englsih</option>
+                                            <option value="WY">Marathi</option>
+                                            <option value="WY">Telegu</option>
+                                            <option value="WY">Tamil</option>
+                                            <option value="WY">Malayalm</option>
+                                            <option value="WY">Bengali</option>
+                                            <option value="WY">Gujrati</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="det-info-inp submit mb">
+                                <input type="submit" value="Save" >
+                             </div>
+                        </div>
+                    </div>
+
+
+                </form>
+
+
+            </div>
+
+
+
+
+        </div>
+    </section>
+
+
+    <script>
+        $(document).ready(function () {
+            $('.js-example-basic-multiple').select2();
+        });
+    </script>
+
+</body>
+
+</html>

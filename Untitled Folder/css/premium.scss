@@ -1,0 +1,197 @@
+
+@import 'common';
+
+@import 'profileHead';
+
+
+.parent {
+    -ms-overflow-style: none;
+    /* for Internet Explorer, Edge */
+    scrollbar-width: none;
+    /* for Firefox */
+    overflow-y: scroll;
+}
+
+.parent::-webkit-scrollbar {
+    display: none;
+}
+
+.container {
+    // border: 1px solid black;
+    
+    .heading {
+        font-weight: normal;
+        color: $heading;
+        margin: 2em auto;
+        font-size: $fs-title1;
+    }
+
+    .boxes {
+        // padding: 0;
+        // display: flex;
+        // justify-content: space-evenly;
+        // padding-bottom: 1px;
+        margin: auto;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        white-space: nowrap;
+        gap: 1em;
+        max-width: 1000px;
+
+        // border: 1px solid black;
+        display: flex;
+        justify-content: space-evenly;
+
+        div:nth-of-type(1) {
+            h2 {
+                color: #CD7F32;
+                text-transform: capitalize;
+            }
+        }
+
+        div:nth-of-type(2) {
+            h2 {
+                color: #8A8A8A;
+                text-transform: capitalize;
+            }
+        }
+
+        div:nth-of-type(3) {
+            h2 {
+                color: #D4AF37;
+                text-transform: capitalize;
+            }
+        }
+        
+        > div {
+            text-align: center;
+            border: 1px solid transparent;
+            // color: red;
+            border-radius: 6px;
+            // background: #FFFFFF;
+            box-shadow: 1px 1px 6px 2px rgba(0, 0, 0, 0.15);
+            padding: 3em;
+            transition: all ease-in 0.2s;
+            
+            > h2 {
+                // border: 1px solid black;
+                font-size: $fs-para1;
+                font-weight: bold;
+            }
+            
+            > span {
+                // border: 1px solid black;
+                font-size: $fs-span3;
+                top: -1em;
+                position: relative;
+            }
+            
+            .percentoff {
+                // border: 1px solid black;
+                display: flex;
+                justify-content: space-around;
+                align-items: baseline;
+                margin: 1em auto;
+
+                p:nth-of-type(1) {
+                    color: $language;
+                    font-size: $fs-span1;
+                }
+
+                p:nth-of-type(2) {
+                    // color: red;
+                    font-size: $fs-subtitle1;
+                }
+
+            }
+
+            .price {
+                margin:1em auto;
+                margin-bottom: 2em;
+                // border: 1px solid black;
+                
+                h3 {
+                    font-size: $fs-brandname;
+                    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+                    padding: 0;
+                    line-height: 1;
+                    transition: all ease-in-out 0.3s;
+                }
+
+                span {
+                    font-size: $fs-span3;
+                    top: -0.5em;
+                    position: relative;
+                }
+            }
+
+            a {
+                // background-color: red;
+                padding: 0.4em 1.5em;
+                border: 1px solid $light-blue;
+                border-radius: 5px;
+                color: $light-blue;
+                transition: all ease-in-out 0.3s;
+            }
+        }
+
+        > div:hover {
+            border: 1px solid $light-blue;
+            // border: 1px solid #C4C4C4;
+            box-shadow: 10px 10px 12px 2px rgba(0, 0, 0, 0.15);
+
+            .price {                
+                h3 {
+                    border-bottom: 1px solid $light-blue-hover;
+                    color: $light-blue;
+                }
+            }
+
+            a {
+                background-color: $light-blue;
+                color: white;
+                box-shadow: rgba(0, 0, 0, 0.15) 1px 1px 2.6px;
+            }
+        }
+        
+    }
+}
+
+
+@media screen and (max-width: 850px) {
+    .profile {
+        .head {
+            .primary-nav {
+                a {
+                    font-size: $fs-para1 * 0.85;
+                }
+            }
+        }
+    }
+
+    .container {
+        padding-left: 1em;
+        padding-right: 1em;
+
+            
+    .heading {
+        font-size: $fs-title1 * 0.6;
+        // font-size: 4.2vw;
+    }
+
+        display: flex;
+        padding-right: 2em;
+        padding-left: 2em;
+        .boxes {
+            gap: 2em;
+        }
+    }
+
+}
+
+
+@media screen and (max-width: 550px) {
+
+
+}
+

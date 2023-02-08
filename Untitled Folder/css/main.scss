@@ -1,0 +1,305 @@
+@import 'common';
+
+body {
+    background-color: rgba($color: #f0f0f0, $alpha: 1.0);    
+}
+
+.header {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    nav {
+
+        h1 {
+            color: $heading;
+        }
+
+        a {
+            font-size: $fs-subtitle1;
+            color: $light-blue;
+        }
+    }
+}
+
+.hero {
+    margin: 2.5em auto;
+    background-image: url('images/hero-bg.jpg');
+    background-attachment: fixed;
+    position: relative;
+
+
+    ::before {
+        content: "";
+        background: rgba(255, 255, 255, 0.889);
+        position: absolute;
+        top: 0;
+    }
+
+    
+    .left {
+        display: none;
+        text-align: center;
+        // border: 2px solid;
+
+        h2, h6, button {
+            margin-top: 1em;
+        }
+
+        h2 {
+            font-weight: bold;
+            font-size: $fs-brandname;
+            color: $heading;
+        }
+
+        h6 {
+            font-size: $fs-title1;
+            color: $grey;
+        }
+
+        button {
+            padding: 0.6em 0.9em;
+            background-color: $light-blue;
+            border: none;
+            color: white;
+            border-radius: 0.1em;
+        }
+
+        button:hover {
+            background-color: $light-blue-hover;
+            cursor: pointer;
+        }
+
+
+        .readmore {
+            @include btn-primary;
+            font-size: $fs-title1;
+        }
+
+        
+    }
+
+    .hero-form {
+        // max-width: min(65%, 1000px);
+        padding: 2em;
+        background-color: white;
+        min-width: 300px;
+
+        .photo-set {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5em;
+            // background-color: red;
+            // border: 1px solid black;
+
+            img {
+                height: 100px;
+                max-width: 100%;
+                // border: 1px solid $light-blue;
+                // border-radius: 8px;
+                box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+            }
+        }
+        
+        h6 {
+            font-size: $fs-span1;
+            font-weight: 500;
+            color: $heading;
+        }
+
+        
+
+        select{
+            // text-transform: capitalize;
+
+            option {
+                color: $grey;
+            }
+        }
+        
+
+        .error {
+            color: red;
+            font-weight: 400;
+            font-size: $fs-span1;
+        }
+
+        .otpflex {
+            display: flex;
+            // font-size: .8em;
+            font-size: $fs-span1;
+            justify-content: space-between;
+            margin-top: .15em;
+
+            a {
+                color: $grey;
+                font-weight: 500;
+            }
+            a:hover {
+                color: $light-blue-hover;
+            }
+        }
+
+       .heading {
+            text-align: center;
+            // margin: 0.6em auto;
+            // font-weight: 500;
+            font-size: $fs-title2
+        }
+
+        label, p {
+            display: block;
+            font-size: $fs-label1;
+            color: $grey;
+            // margin-bottom: 1em;
+        }
+
+        input, select, input[type="date"], textarea{
+            width: 100%;
+            box-sizing: border-box;
+            padding: 0.6em;
+            font-size: $fs-para1;
+            border: 1px solid $light-grey;
+            background-color: white;
+            color: $grey;
+            border-radius: 0.1em;
+            // text-transform: capitalize;
+        }
+
+        input[type="date"] {
+            font-size: 15px;
+        }
+
+        textarea {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        input:focus, select:focus, select:visited, textarea:hover, textarea:visited {
+            border: 1px solid $light-blue-hover;
+            outline: none;
+        } 
+
+        .otplink  {
+            // border: 1px solid;
+            text-align: center;
+            font-size:$fs-label1;
+            margin-top: 1em;
+           
+            a {
+                color: $grey;
+                font-weight: 500;
+            }
+            a:hover {
+                color: $light-blue-hover;
+            }
+        }
+
+        .timer {
+            margin-bottom: 1em;
+            text-align: center;
+            font-weight: bold;
+            font-size: $fs-subtitle1;
+            // display: none;
+
+            a {
+                color: $light-blue;
+            }
+        }
+
+
+        .submit {
+            text-align: center;
+            width: unset;
+
+            input {
+                width: unset;
+                @include btn-primary();
+            }
+
+            input:hover {
+                background-color: $light-blue-hover;
+            }
+        }
+
+
+        .radio {
+            display: flex;
+            column-gap: 1em;
+            align-items: center;
+            margin-bottom: 0;
+
+
+            div {
+                // border: 1px solid;
+                display: flex;
+                align-items: flex-start;
+                justify-content: center;
+            }
+
+            input {
+                width: unset;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+
+    .container {
+        padding: 0 calc($container-padding/2);
+    }
+    .hero {
+        .hero-form {
+            padding: 2em 1em;
+        }
+    } 
+}
+
+@media screen and (max-width: 420px) {
+    * {
+        color: rgb(37, 86, 4);
+        // background-color: red;
+    }
+    .container {
+        padding: 0 calc($container-padding/3);
+    }
+    .logo {
+        font-size: $fs-brandname * 0.4;
+    }
+    .header {
+        nav {
+            a {
+                font-size: $fs-subtitle1 * 0.9;
+            }
+        }
+    }
+
+
+    .hero {
+        .hero-form {
+            padding: 2em 1em;
+            min-width: unset;
+
+            input, select, textarea {
+                font-size:  $fs-para1 * .9;
+            }   
+
+            .error, h6, .otpflex {
+                font-size: $fs-span1 * 0.9;
+            }
+
+            p, .otplink, label {
+                font-size: $fs-label1 * 0.9;
+            }
+
+            .heading {
+                font-size: $fs-title2 * .9;
+            }
+        }
+    } 
+
+}
+
+

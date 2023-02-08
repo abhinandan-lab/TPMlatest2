@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <!-- ======= header ========== -->
+    <div class="container header ">
+        <h1> <a href="#" class="logo">TPM</a></h1>
+        <nav class="">
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <!-- ========== hero section ============== -->
+    <section class="container hero ">
+        <div class="left b">
+            <!-- verse -->
+            <h2>One page Bootstrap website Template</h2>
+            <h6>One page Bootst</h2>
+                <button class="readmore">Read More</button>
+        </div>
+
+        <div class="hero-form ">
+            <!-- register form -->
+
+            <form action="">
+
+                <h4 class="heading mb">Verify your email</h4>
+
+                <div class="mb2">
+                </div>
+                <div class="input mb">
+                    <h6>We have sent you an OTP on your email on airindustry2gmail.com</h6>
+                </div>
+
+                <div class="input ">
+                    <label for="cars">Enter OTP here</label>
+                    <input type="email" name="email" placeholder="" value="">
+                    <span class="error">this field is required</span>
+                </div>
+
+                <div class="otpflex mb">
+                    <a href="#" class="editemail">Edit email</a>
+                    <a href="#" class="notrecieved">didn't recieved, send again</a>
+                </div>
+
+
+                <div class="submit">
+                    <input type="submit" value="Login">
+                </div>
+            </form>
+
+
+            <div class="otplink">
+
+                <a href="#">or new Register </a>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <script>
+
+
+        function throttle(callback, limit) {
+            var waiting = false;                      // Initially, we're not waiting
+            return function () {                      // We return a throttled function
+                if (!waiting) {                       // If we're not waiting
+                    callback.apply(this, arguments);  // Execute users function
+                    waiting = true;                   // Prevent future invocations
+                    setTimeout(function () {          // After a period of time
+                        waiting = false;              // And allow future invocations
+                    }, limit);
+                }
+            }
+        }
+
+        // try it out!
+        window.addEventListener('click', throttle(function () {
+            console.log('resize!!');
+        }, 1000));
+
+
+
+        const throttle = (callback, duration) => {
+            let oldtime;
+            return (...args) => {
+                const now = new Date().getTime();
+                if (now - oldtime < duration) {
+                    return;
+                };
+                oldtime = now;
+                return callback(...args)
+                firstwait = false;
+            }
+        }
+
+
+        document.querySelector('.notrecieved').addEventListener('click', throttle(() => {
+            console.log('demo thro');
+        }, 5000))
+
+
+    </script>
+
+</body>
+
+</html>
