@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JESUS </title>
 
-    <link rel="stylesheet" href="<?=base_url();?>/asset/css/profile.css">
+    <link rel="stylesheet" href="<?=base_url();?>/asset/css/premium.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
         integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -313,65 +313,20 @@
                     <i class="fa-solid fa-house"></i>
                     <p>Premium</p>
                 </a>
-                <a href="matches">
+                <a href="#">
                     <i class="fa-solid fa-user-group"></i>
                     <p>Matches</p>
                 </a>
 
-                <a href="inbox">
+                <a href="#">
                     <i class="fa-solid fa-envelope"></i>
                     <p>Inbox</p>
                 </a>
 
-                <a href="home">
+                <a href="#">
                     <i class="fa-solid fa-house"></i>
                     <p>Home</p>
                 </a>
-            </div>
-
-            <div class="secondary-nav">
-                <ul>
-                    <li class="active">
-                        <a href="#">search</a>
-                    </li>
-
-                    <li>
-                        <a href="#">search</a>
-                    </li>
-
-                    <li>
-                        <a href="#">search</a>
-                    </li>
-                    <li>
-                        <a href="#">search</a>
-                    </li>
-                    <li>
-                        <a href="#">search</a>
-                    </li>
-                    <li>
-                        <a href="#">search</a>
-                    </li>
-                    <li>
-                        <a href="#">search</a>
-                    </li>
-                    <li>
-                        <a href="#">search</a>
-                    </li>
-                    <li>
-                        <a href="#">search</a>
-                    </li>
-                    <li>
-                        <a href="#">search</a>
-                    </li>
-                    <li>
-                        <a href="#">search</a>
-                    </li>
-                    <li>
-                        <a href="#">search</a>
-                    </li>
-
-                </ul>
-
             </div>
         </div>
 

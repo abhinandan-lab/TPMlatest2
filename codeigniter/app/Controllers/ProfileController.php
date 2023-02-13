@@ -16,6 +16,7 @@ class ProfileController extends BaseController
 
         $db = \Config\Database::connect();
         $db = db_connect();
+        // $builder = $db->table('user');
         $query = $db->query('SELECT * FROM user INNER JOIN user_info ON user.id = user_info.user_id LIMIT 1;');
         $newProfile = $query->getResultArray();
         $newProfile =$newProfile[0];
@@ -26,5 +27,10 @@ class ProfileController extends BaseController
 
         return view('User/profiles', ['newprofile' => $newProfile]);
         // return view('User/profiles');
+    }
+
+
+    public function premiums() {
+        return view('User/premiums');
     }
 }
