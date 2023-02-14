@@ -90,6 +90,13 @@ $routes->group('', ['filter' => 'profilefilter'], function ($routes) {
     $routes->match(['get', 'post'], 'imagerender/(:segment)', 'RenderImage::index/$1');
     $routes->get('profiles', 'ProfileController::index');
     $routes->get('premiums', 'ProfileController::premiums');
+    $routes->get('premiums', 'ProfileController::premiums');
+    $routes->get('home', 'UserHome::index');
+    $routes->get('home/edit-profile', 'UserHome::editProfile');
+    $routes->get('home/edit-partner-preference', 'UserHome::editPartnerPreference');
+    
+    
+
 });
 
 

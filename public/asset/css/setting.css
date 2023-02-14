@@ -1,0 +1,503 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap");
+body {
+  margin: 0;
+  font-family: "Poppins";
+  text-decoration: none;
+  list-style: none;
+}
+body a {
+  text-decoration: none;
+}
+body li {
+  list-style: none;
+}
+body h1, body h2, body h3, body h4, body h5, body h6, body p {
+  margin: 0;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.container {
+  padding: 0 4em;
+}
+
+.b {
+  border: 1px solid black;
+}
+
+.mb {
+  margin-bottom: 1em;
+}
+
+.mb2 {
+  margin-bottom: 2em;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.heading {
+  text-align: center;
+  font-size: 1.3em;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: #f0f0f0;
+}
+
+.heading {
+  color: rgb(74, 74, 74);
+  font-weight: normal;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.profile .head {
+  z-index: 1;
+  box-shadow: 0 2px 5px #124265;
+}
+.profile .head .primary-nav {
+  background-color: #58aae4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.profile .head .secondary-nav {
+  background-color: #F8FBFE;
+  -ms-overflow-style: none;
+  /* for Internet Explorer, Edge */
+  scrollbar-width: none;
+  /* for Firefox */
+  overflow-y: scroll;
+}
+.profile .head .secondary-nav ul {
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 1px;
+  margin: 0;
+  white-space: nowrap;
+}
+.profile .head .secondary-nav ul li {
+  border: 3px solid transparent;
+  padding: 0.2em 0.6em;
+  border-bottom: 3px solid transparent;
+  font-size: 1em;
+}
+.profile .head .secondary-nav ul li a {
+  color: #124265;
+}
+.profile .head .secondary-nav ul li:hover {
+  border-bottom: 3px solid #4C9DD7;
+}
+.profile .head .secondary-nav ul li.active {
+  border-bottom: 3px solid #4C9DD7;
+}
+.profile .head .secondary-nav::-webkit-scrollbar {
+  display: none;
+  /* for Chrome, Safari, and Opera */
+}
+.profile .head a {
+  text-align: center;
+  flex-basis: 100%;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+}
+.profile .head a:hover i,
+.profile .head a:hover p {
+  color: white;
+}
+.profile .head .active i,
+.profile .head .active p {
+  color: white;
+}
+.profile .head i {
+  font-size: 1.2em;
+}
+.profile .head p,
+.profile .head i {
+  color: #124265;
+}
+.profile .foot .container {
+  margin: 4em auto 1em auto;
+  max-width: 1000px;
+  background-color: white;
+  padding: 0;
+}
+.profile .foot .container .top {
+  background-image: linear-gradient(#58aae4, #b0deff);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 120px;
+  margin-bottom: 120px;
+}
+.profile .foot .container .top img {
+  background-image: url("/images/download.jpeg");
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center top;
+     object-position: center top;
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+  transform: translateY(50%);
+}
+.profile .foot .container .nameinfo {
+  text-align: center;
+  padding-right: 2em;
+  padding-left: 2em;
+}
+.profile .foot .container .nameinfo h2 {
+  font-size: 2.2em;
+}
+.profile .foot .container .nameinfo .edits {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 1em;
+}
+.profile .foot .container .nameinfo .edits div {
+  padding: 1em;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-top: none;
+  width: 50%;
+}
+.profile .foot .container .nameinfo .edits div a {
+  font-size: 1em;
+  color: #626262;
+}
+.profile .foot .container .nameinfo .edits div a:hover {
+  color: #4C9DD7;
+}
+.profile .foot .container .nameinfo .edits div:nth-of-type(1) {
+  border-left: none;
+  border-right: none;
+}
+.profile .foot .container .nameinfo .edits div:nth-of-type(2) {
+  border-right: none;
+}
+.profile .foot .container .nameinfo p {
+  color: #626262;
+  margin-bottom: 1em;
+}
+.profile .foot .container .nameinfo p span {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+.profile .foot .container .nameinfo a {
+  color: #4C9DD7;
+  text-transform: capitalize;
+  font-size: 1.1em;
+}
+.profile .foot .container .nameinfo a:hover {
+  color: #58aae4;
+  text-decoration: underline;
+}
+.profile .foot .container .activity {
+  margin-top: 1em;
+  margin-bottom: 2em;
+  padding-right: 2em;
+  padding-left: 2em;
+}
+.profile .foot .container .activity > p {
+  font-size: 0.9em;
+  color: #4e4e4e;
+}
+.profile .foot .container .activity > div {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0.5em 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.profile .foot .container .activity > div div {
+  margin: auto;
+  width: 31%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0.5em;
+}
+.profile .foot .container .activity > div div p {
+  font-size: 1em;
+}
+.profile .foot .container .activity > div div p:nth-of-type(1) {
+  font-weight: bold;
+}
+.profile .foot .container .activity > div div p:nth-of-type(1) span {
+  font-weight: normal;
+  background-color: #4C9DD7;
+  color: white;
+  padding: 0.1em 0.5em;
+  border-radius: 20px;
+}
+.profile .foot .container .activity > div div p:nth-of-type(2) {
+  margin-top: 0.5em;
+  color: #626262;
+}
+.profile .foot .container .notif-parent {
+  padding-right: 2em;
+  padding-left: 2em;
+  padding-bottom: 3em;
+}
+.profile .foot .container .notif {
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2em;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 1em;
+}
+.profile .foot .container .notif h6 {
+  font-size: 1.1em;
+  color: #BE0D0D;
+  font-weight: normal;
+}
+.profile .foot .container .notif p {
+  color: #4e4e4e;
+  font-size: 1em;
+}
+.profile .foot .container .notif p a {
+  color: #4C9DD7;
+  border-bottom: 1px solid #626262;
+}
+.profile .foot .container .notif p a:hover {
+  font-weight: bold;
+}
+.profile .foot .container .pictures,
+.profile .foot .container #preview {
+  margin-top: 1em;
+  padding-right: 2em;
+  padding-left: 2em;
+}
+.profile .foot .container .pictures p,
+.profile .foot .container #preview p {
+  font-size: 1em;
+  color: #626262;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  font-weight: bold;
+}
+.profile .foot .container .pictures div,
+.profile .foot .container #preview div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+.profile .foot .container .pictures div img,
+.profile .foot .container #preview div img {
+  height: 110px;
+}
+.profile .foot .container .pictures .imglist,
+.profile .foot .container #preview .imglist {
+  display: flex;
+}
+.profile .foot .container .pictures .imglist div,
+.profile .foot .container #preview .imglist div {
+  position: relative;
+}
+.profile .foot .container .pictures .imglist div a,
+.profile .foot .container #preview .imglist div a {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 0.1em;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  transform: translate(-20%, -20%);
+}
+.profile .foot .container .pictures .imglist div a:hover,
+.profile .foot .container #preview .imglist div a:hover {
+  background-color: black;
+}
+.profile .foot .container .pictures .input,
+.profile .foot .container #preview .input {
+  border: 1px solid #4C9DD7;
+  display: flex;
+  align-items: center;
+  padding: 0.5em;
+  margin-top: 1em;
+  cursor: pointer;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.profile .foot .container .pictures .input label,
+.profile .foot .container #preview .input label {
+  font-size: 0.8em;
+}
+.profile .foot .container #preview {
+  padding-right: 0;
+  padding-left: 0;
+}
+.profile .foot .container .aboutme {
+  margin-top: 2em;
+  padding-right: 2em;
+  padding-left: 2em;
+}
+.profile .foot .container .aboutme .mb {
+  margin-bottom: 0.7em;
+}
+.profile .foot .container .aboutme > div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5em;
+}
+.profile .foot .container .aboutme > div label {
+  font-size: 1em;
+  color: #626262;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+.profile .foot .container .aboutme > div textarea {
+  padding: 0.5em;
+  color: #626262;
+  border: 1px solid #4e4e4e;
+  outline: none;
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.profile .foot .container .aboutme > div textarea:focus {
+  border: 1px solid #4C9DD7;
+}
+.profile .foot .container .aboutme .det-info-inp {
+  display: flex;
+  flex-direction: column;
+}
+.profile .foot .container .aboutme .det-info-inp label {
+  font-size: 0.8em;
+  font-weight: normal;
+}
+.profile .foot .container .aboutme .det-info-inp input {
+  padding: 0.5em;
+  font-size: 1em;
+  outline: none;
+  border: 1px solid #4e4e4e;
+}
+.profile .foot .container .aboutme .det-info-inp input:focus,
+.profile .foot .container .aboutme .det-info-inp input:hover {
+  border: 1px solid #4C9DD7;
+}
+.profile .foot .container .aboutme .det-info-inp span {
+  font-size: 0.7em;
+  color: red;
+}
+.profile .foot .container .aboutme .submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3em;
+}
+.profile .foot .container .aboutme .submit input {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.6em 0.9em;
+  background-color: #4C9DD7;
+  border: none;
+  color: white;
+  border-radius: 0.1em;
+  cursor: pointer;
+  cursor: pointer;
+}
+.profile .foot .container .aboutme .submit input:hover {
+  background-color: #58aae4;
+}
+.profile .foot .container .aboutme .rangebox {
+  margin-bottom: 3em;
+}
+.profile .foot .container .aboutme .rangebox .ui-slider-horizontal {
+  height: 0.3em;
+  background-color: rgba(128, 128, 128, 0.25);
+  border: none;
+}
+.profile .foot .container .aboutme .rangebox .ui-slider-handle {
+  border-radius: 50%;
+  top: -0.45em;
+  background-color: #4C9DD7;
+  border: none;
+}
+.profile .foot .container .aboutme .rangebox .ui-slider-horizontal .ui-slider-range {
+  background-color: #4C9DD7;
+}
+.profile .foot .container .aboutme .rangebox .ageinfo, .profile .foot .container .aboutme .rangebox .heightinfo {
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 0em 1em;
+  padding-bottom: 0.5em;
+  margin: auto;
+  color: #4C9DD7;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+.profile .foot .container .aboutme .rangebox .space {
+  margin: 150px;
+}
+.profile .foot .container .aboutme .multisel .select2-container--default .select2-selection--multiple {
+  border: 1px solid #626262;
+  border-radius: 0;
+}
+.profile .foot .container .aboutme .multisel .select2-container--default .select2-selection--multiple:hover,
+.profile .foot .container .aboutme .multisel .select2-container--default .select2-selection--multiple:active,
+.profile .foot .container .aboutme .multisel .select2-container--default .select2-selection--multiple:focus {
+  border: 1px solid #4C9DD7;
+}
+.profile .foot .container .aboutme .multisel textarea, .profile .foot .container .aboutme .multisel textarea:focus, .profile .foot .container .aboutme .multisel textarea:hover {
+  border: none;
+}
+.profile .foot .container .aboutme .multisel .select2-results__options {
+  border-radius: 0;
+}
+.profile .foot .container .aboutme .multisel .select2-selection__choice {
+  border-radius: 0;
+  background-color: rgba(0, 191, 255, 0.2117647059);
+  border: none;
+}
+.profile .foot .container .aboutme .multisel .select2-selection__choice button {
+  margin-top: 0.15em;
+}
+.profile .foot .container .aboutme .loadmore {
+  text-align: center;
+  padding: 1em;
+}
+.profile .foot .container .aboutme .loadmore .btn {
+  background-color: #4C9DD7;
+  cursor: pointer;
+  font-size: 0.9em;
+  color: white;
+  padding: 0.3em 0.8em;
+  transition: all ease-in-out 0.3s;
+}
+.profile .foot .container .aboutme .loadmore .btn:hover {
+  box-shadow: 1px 1px 2px rgba(18, 66, 101, 0.4823529412);
+}
+.profile .foot .container .aboutme .foldable label {
+  margin-bottom: 0.5em;
+  display: block;
+}
+
+@media screen and (max-width: 850px) {
+  .profile .head .primary-nav a {
+    font-size: 0.85em;
+  }
+  .profile .head .secondary-nav ul li {
+    font-size: 0.8em;
+  }
+}/*# sourceMappingURL=setting.css.map */
