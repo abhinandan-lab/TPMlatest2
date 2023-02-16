@@ -337,5 +337,3 @@
 
             </div>
         </div>
-
-    <?= $this->renderSection("content"); ?>

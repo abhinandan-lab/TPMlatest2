@@ -100,7 +100,7 @@ $routes->group('', ['filter' => 'profilefilter'], function ($routes) {
 });
 
 
-$routes->get('test2', 'ProfileController::test2');
+$routes->get('test2', 'ProfileController::test2'); 
 
 
 /*

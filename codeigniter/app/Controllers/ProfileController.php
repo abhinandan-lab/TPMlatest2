@@ -13,6 +13,7 @@ class ProfileController extends BaseController
 
     public function index()
     {
+        $pageData = ['title' => 'Profiles'];
 
         $db = \Config\Database::connect();
         $db = db_connect();
@@ -25,7 +26,7 @@ class ProfileController extends BaseController
        $pics =$pics->getResultArray();
        $newProfile['pics'] = $pics;
 
-        return view('User/profiles', ['newprofile' => $newProfile]);
+        return view('User/Headers/profilehead', ['pageData'=> $pageData]).view('User/profiles', ['newprofile' => $newProfile]);
         // return view('User/profiles');
     }
 

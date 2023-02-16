@@ -1,6 +1,3 @@
-<?=$this->extend("User/mainhead")?>
-
-<?=$this->section("content")?>
 
         <!-- ========== hero section ============== -->
         <section class="container hero ">
@@ -143,4 +140,3 @@
 
     </body>
 </html>
-<?=$this->endSection()?>

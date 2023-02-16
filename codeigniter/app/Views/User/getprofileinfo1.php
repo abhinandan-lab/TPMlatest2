@@ -1,6 +1,4 @@
-<?=$this->extend("User/mainhead")?>
 
-<?=$this->section("content")?>
 
         <!-- ========== hero section ============== -->
         <section class="container hero ">
@@ -10,7 +8,7 @@
                 <h6>One page Bootst</h2>
                 <button class="readmore">Read More</button>
             </div>
-
+ 
             <div class="hero-form ">
                 <!-- register form -->
 
@@ -104,4 +102,3 @@
 
     </body>
 </html>
-<?=$this->endSection()?>

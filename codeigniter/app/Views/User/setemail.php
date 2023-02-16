@@ -1,6 +1,3 @@
-<?=$this->extend("User/mainhead")?>
-
-<?=$this->section("content")?>
 
         <!-- ========== hero section ============== -->
         <section class="container hero ">
@@ -13,7 +10,7 @@
 
             <div class="hero-form ">
                 <!-- register form -->
-
+ 
                 <?php display_flash_msg(); ?>
 
                 <?=form_open('setemail')?> 
@@ -59,5 +56,3 @@
 
     </body>
 </html>
-
-<?=$this->endSection()?>

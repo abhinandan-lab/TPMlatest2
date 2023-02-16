@@ -1,7 +1,3 @@
-<?=$this->extend("User/mainhead")?>
-
-<?=$this->section("content")?>
-
     <?php $data['language'][0][0]?>
 
     <!-- ========== hero section ============== -->
@@ -17,7 +13,7 @@
         <div class="hero-form ">
             <!-- register form -->
 
-
+ 
             <?php
 
             $validation = \Config\Services::validation();
@@ -111,5 +107,3 @@
 </body>
 
 </html>
-
-<?=$this->endSection()?>

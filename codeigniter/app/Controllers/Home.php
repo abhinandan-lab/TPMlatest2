@@ -12,21 +12,23 @@ class Home extends BaseController
 
     public function register()
     {
+
+        $pageData = ['title' => 'Register new Account'];
+        
         // if_has_session_then_redirect('userLoggedin', 'profiles');
         if(session()->has('userLoggedin')) {
             return redirect()->to('profiles'); 
         }
-
+        
         $data['profileFor'] = profileFor();
         $data['language'] = language();
 
         if (strtolower($this->request->getMethod()) !== 'post') {
             // get request
-            return view('User/homeregister', [
-                'validation' => null,
-             'data' => $data,]);
+            return view('User/Headers/mainhead', ['pageData'=> $pageData])
+            .view('User/homeregister', ['validation' => null, 'data' => $data,]);
         }
-
+        
         $rules = [
             'profilehtml' => [
                 'rules' => 'required',
@@ -34,21 +36,21 @@ class Home extends BaseController
                     'required'=> 'Choose for whom account is created',
                 ],
             ],
-
+            
             'dob' => [
                 'rules' => 'required',
                 'errors' => [
                     'required'=> 'Choose your date of birth',
                 ],
             ],
-
+            
             'language' => [
                 'rules' => 'required',
                 'errors' => [
                     'required'=> 'Choose a language you speak',
                 ],
             ],
-
+            
             'gender' => [
                 'rules' => 'required',
                 'errors' => [
@@ -56,26 +58,28 @@ class Home extends BaseController
                 ],
             ],
         ];
-
+        
+        
         if (! $this->validate($rules)) {
             // post request
-            return view('User/homeregister', [
+            return view('User/Headers/mainhead', ['pageData'=> $pageData]).view('User/homeregister', [
                 'validation' => $this->validator,  'data' => $data,
             ]);
         }
-
+        
         $session = \Config\Services::session();
-
+        
         $ses_data = [
             'profile' => $_POST['profilehtml'],
             'dob' => $_POST['dob'],
             'language' => $_POST['language'],
             'gender' => $_POST['gender'],
         ];
-
+        
         $session->set($ses_data);
+        $pageData = ['title' => 'Setup a new email and password'];
 
-       return view('User/setemail');
+       return view('User/Headers/mainhead', ['pageData'=> $pageData]).view('User/setemail');
     }
 
     public function loginUser()
@@ -84,10 +88,12 @@ class Home extends BaseController
         $session = \Config\Services::session();
         $emailService = \Config\Services::email();
 
+        $pageData = ['title' => 'Login'];
+
 
 
         if (strtolower($this->request->getMethod()) !== 'post') {
-            return view('User/login', [
+            return view('User/Headers/mainhead', ['pageData'=> $pageData]).view('User/login', [
                 'validation' => null,
              'data' => $data,]);
         }
@@ -112,7 +118,7 @@ class Home extends BaseController
 
 
         if (!$this->validate($rules)) {
-            return view('User/login', [
+            return view('User/Headers/mainhead', ['pageData'=> $pageData]).view('User/login', [
                 'validation' => $this->validator,  'data' => $data,
             ]);
         }
@@ -131,7 +137,7 @@ class Home extends BaseController
             if(password_verify($pass, $getUserRow['password'])) {
 
                 $loginuser = [
-                    'user_id' => $getUserRow['id'],
+                    'user_id' => $getUserRow['id'], 
                     'userLoggedin' => true,
                 ];
 
@@ -161,8 +167,11 @@ class Home extends BaseController
     {
         $data = null;   
 
+        $pageData = ['title' => 'Create email and password'];
+
+
         if (strtolower($this->request->getMethod()) !== 'post') {
-            return view('User/setemail', [
+            return view('User/Headers/mainhead', ['pageData'=> $pageData]).view('User/setemail', [
                 'validation' => null,
              'data' => $data,]);
         }
@@ -188,7 +197,7 @@ class Home extends BaseController
 
 
         if (!$this->validate($rules)) {
-            return view('User/setemail', [
+            return view('User/Headers/mainhead', ['pageData'=> $pageData]).view('User/setemail', [
                 'validation' => $this->validator,  'data' => $data,
             ]);
         }
@@ -257,7 +266,7 @@ class Home extends BaseController
                 'email' => $email,
                 'userid' =>$session->get('user_id'),
             ];
-            return view('User/verifyemail', ['data'=> $data]);
+            return view('User/Headers/mainhead', ['pageData'=> $pageData]).view('User/verifyemail', ['data'=> $data]);
 
          } 
          else 
@@ -271,6 +280,8 @@ class Home extends BaseController
     public function verifyEmail() {
         $session = \Config\Services::session();
 
+        $pageData = ['title' => 'Verify email'];
+
         $userModel = new User();
         $user = $userModel->find($session->get('user_id'));
         $email = $user['email'];
@@ -282,7 +293,7 @@ class Home extends BaseController
 
         if (strtolower($this->request->getMethod()) !== 'post') {
             // get request
-            return view('User/homeregister', [
+            return view('User/Headers/mainhead', ['pageData'=> $pageData]).view('User/homeregister', [
                 'validation' => null,
              'data' => $data,]);
         }
@@ -300,7 +311,7 @@ class Home extends BaseController
         ];
 
         if (!$this->validate($rules)) {
-            return view('User/verifyemail', [
+            return view('User/Headers/mainhead', ['pageData'=> $pageData]).view('User/verifyemail', [
                 'validation' => $this->validator,  'data' => $data,
             ]);
         }
@@ -326,15 +337,18 @@ class Home extends BaseController
         else {
             // echo 'worng otp';
             $session->setFlashdata('errormsg', 'you entered wrong OTP');
-            return view('User/verifyemail', [ 'validation' => $this->validator, 'data'=> $data ]);
+            return view('User/Headers/mainhead', ['pageData'=> $pageData]).
+            view('User/verifyemail', [ 'validation' => $this->validator, 'data'=> $data ]);
         }
     }
 
     public function editEmail($user_id) {
 
+        $pageData = ['title' => 'Edit email'];
+
         remove_user_data([new User(), new Userinfo()], $user_id);
 
-        return view('User/setemail');
+        return view('User/Headers/mainhead', ['pageData'=> $pageData]).view('User/setemail');
 
     }
 
@@ -343,6 +357,8 @@ class Home extends BaseController
         $userinfo = new UserInfo();
         $user = new User();
         $emailService = \Config\Services::email();
+
+        $pageData = ['title' => 'new OTP'];
 
         // send main and create new otp | remove previous otp and replace with new
 
@@ -385,7 +401,7 @@ class Home extends BaseController
             ];
 
             $session->setFlashdata('successmsg', 'new OTP has been sent!');
-            return view('User/verifyemail', ['data'=> $data]);
+            return view('User/Headers/mainhead', ['pageData'=> $pageData]).view('User/verifyemail', ['data'=> $data]);
          }
 
          else {
@@ -399,10 +415,12 @@ class Home extends BaseController
         $data = null;   
         $session = \Config\Services::session();
         $emailService = \Config\Services::email();
+
+        $pageData = ['title' => 'Login with OTP'];
         
         
         if (strtolower($this->request->getMethod()) !== 'post') {
-            return view('User/otplogin1', [
+            return view('User/Headers/mainhead', ['pageData'=> $pageData]).view('User/otplogin1', [
                 'validation' => null,
                 'data' => $data,]);
             }      
@@ -417,7 +435,7 @@ class Home extends BaseController
         ];
         
         if (!$this->validate($rules)) {
-            return view('User/otplogin1', [
+            return view('User/Headers/mainhead', ['pageData'=> $pageData]).view('User/otplogin1', [
                 'validation' => $this->validator,  'data' => $data,
             ]);
         }
@@ -478,11 +496,13 @@ class Home extends BaseController
         $data = null;   
         $session = \Config\Services::session();
         // $emailService = \Config\Services::email();
+
+        $pageData = ['title' => 'Login with OTP'];
         
         
         
         if (strtolower($this->request->getMethod()) !== 'post') {
-            return view('User/otplogin2', [
+            return view('User/Headers/mainhead', ['pageData'=> $pageData]).view('User/otplogin2', [
                 'validation' => null,
              'data' => $data,]);
         }
@@ -502,7 +522,7 @@ class Home extends BaseController
 
 
         if (!$this->validate($rules)) {
-            return view('User/otplogin2', [
+            return view('User/Headers/mainhead', ['pageData'=> $pageData]).view('User/otplogin2', [
                 'validation' => $this->validator,  'data' => $data,
             ]);
         }

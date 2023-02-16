@@ -18,6 +18,8 @@ class PersonalInfoController extends BaseController
         // echo $userid;
         $session = \Config\Services::session();
 
+        $pageData = ['title' => 'Please give some details!'];
+
         // check if email is verified or not
         checkEmailverified(new User(), $userid);
 
@@ -28,7 +30,7 @@ class PersonalInfoController extends BaseController
         if (strtolower($this->request->getMethod()) !== 'post') {
             // get request
 
-            return view('User/getprofileinfo1', [
+            return view('User/Headers/mainhead', ['pageData'=> $pageData]).view('User/getprofileinfo1', [
                 'validation' => null,
                 'data' => $data]);
         }
@@ -53,7 +55,7 @@ class PersonalInfoController extends BaseController
         ];
 
         if (!$this->validate($rules)) {
-            return view('User/getprofileinfo1', [
+            return view('User/Headers/mainhead', ['pageData'=> $pageData]).view('User/getprofileinfo1', [
                 'validation' => $this->validator, 'data' => $data,
             ]);
         }
@@ -81,14 +83,16 @@ class PersonalInfoController extends BaseController
         // echo '<pre>';
         // print_r($_SESSION);
 
-        return view('User/getprofileinfo2', ['data' => $data]);
+        $pageData = ['title' => 'Lets get to know your location and occupation!'];
+
+        return view('User/Headers/mainhead', ['pageData'=> $pageData]).view('User/getprofileinfo2', ['data' => $data]);
 
     }
 
     public function peInfoTwo($userid)
     {
-        // echo $userid;
-        // echo 'helo';
+
+        $pageData = ['title' => 'Lets get to know your location and occupation!'];
         $session = \Config\Services::session();
 
         // check if email is verified or not
@@ -99,7 +103,7 @@ class PersonalInfoController extends BaseController
 
         if (strtolower($this->request->getMethod()) !== 'post') {
             // get request
-            return view('User/getprofileinfo2', [
+            return view('User/Headers/mainhead', ['pageData'=> $pageData]).view('User/getprofileinfo2', [
                 'validation' => null,
                 'data' => $data]);
         }
@@ -122,7 +126,7 @@ class PersonalInfoController extends BaseController
         ];
 
         if (!$this->validate($rules)) {
-            return view('User/getprofileinfo2', [
+            return view('User/Headers/mainhead', ['pageData'=> $pageData]).view('User/getprofileinfo2', [
                 'validation' => $this->validator, 'data' => $data,
             ]);
         }
@@ -149,7 +153,9 @@ class PersonalInfoController extends BaseController
         // echo 'all set';
         // exit;
 
-        return view('User/getprofileinfo3', ['data' => $data]);
+        $pageData = ['title' => 'Some info about you!'];
+
+        return view('User/Headers/mainhead', ['pageData'=> $pageData]).view('User/getprofileinfo3', ['data' => $data]);
 
     }
 
@@ -160,10 +166,11 @@ class PersonalInfoController extends BaseController
         checkEmailverified(new User(), $userid);
 
         $data = null;
+        $pageData = ['title' => 'Some info about you!'];
 
         if (strtolower($this->request->getMethod()) !== 'post') {
             // get request
-            return view('User/getprofileinfo3', [
+            return view('User/Headers/mainhead', ['pageData'=> $pageData]).view('User/getprofileinfo3', [
                 'validation' => null,
                 'data' => $data]);
         }
@@ -182,7 +189,7 @@ class PersonalInfoController extends BaseController
         ];
 
         if (!$this->validate($rules)) {
-            return view('User/getprofileinfo3', [
+            return view('User/Headers/mainhead', ['pageData'=> $pageData]).view('User/getprofileinfo3', [
                 'validation' => $this->validator, 'data' => $data,
             ]);
         }
@@ -206,8 +213,8 @@ class PersonalInfoController extends BaseController
         // print_r($_SESSION);
         // echo 'all set';
         // exit;
-
-        return view('User/getprofileinfo4', ['data' => $data]);
+        $pageData = ['title' => 'Last one... Add your profile photo'];
+        return view('User/Headers/mainhead', ['pageData'=> $pageData]).view('User/getprofileinfo4', ['data' => $data]);
 
     }
 
@@ -216,6 +223,8 @@ class PersonalInfoController extends BaseController
         $session = \Config\Services::session();
         $request = \Config\Services::request();
 
+        $pageData = ['title' => 'Last one... Add your profile photo'];
+
         // check if email is verified or not
         checkEmailverified(new User(), $userid);
 
@@ -223,7 +232,7 @@ class PersonalInfoController extends BaseController
 
         if (strtolower($this->request->getMethod()) !== 'post') {
             // get request
-            return view('User/getprofileinfo4', [
+            return view('User/Headers/mainhead', ['pageData'=> $pageData]).view('User/getprofileinfo4', [
                 'validation' => null,
                 'data' => $data]);
         }
@@ -240,7 +249,7 @@ class PersonalInfoController extends BaseController
         ];
 
         if (!$this->validate($rules)) {
-            return view('User/getprofileinfo4', [
+            return view('User/Headers/mainhead', ['pageData'=> $pageData]).view('User/getprofileinfo4', [
                 'validation' => $this->validator, 'data' => $data,
             ]);
         }
