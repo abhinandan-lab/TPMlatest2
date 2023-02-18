@@ -299,7 +299,8 @@ class Home extends BaseController
 
         $userModel = new User();
         $user = $userModel->find($session->get('user_id'));
-        $email = $user['email'];
+        // print_r($user);
+        $email = $user[0]['email'];
 
         $data = [
             'email' => $email,
@@ -334,7 +335,7 @@ class Home extends BaseController
         $userOTP = $_POST['otpvalue'];
         // echo $userOTP;
 
-        if(password_verify($userOTP, $user['otpdata'])) {
+        if(password_verify($userOTP, $user[0]['otpdata'])) {
             // echo 'correct otp';
 
             $session->remove(['dob', 'profile', 'gender', 'language']);
@@ -344,7 +345,7 @@ class Home extends BaseController
                 'email_verified' => 1,
             ];
 
-            $userModel->update($user['id'], $removeOTPdata);
+            $userModel->update($user[0]['id'], $removeOTPdata);
 
             return redirect()->to('/profiles');   
 
