@@ -7,6 +7,8 @@
 // personal info filled(fname, lname, dob, profile_for, language, gender, whatsapp_number, highest_quailification) => yes interested
 //  person | no connection will be made untill you give peInfo
 
+// after verifying email acount_status and email_verified will be 1
+
 // account status: 1=active, 0=inactive, 2=terminated|banned
 // when created it will be 0 after email verification it will become 1
 
@@ -166,10 +168,6 @@ function weight()
         '111 - 115', '116 - 120', '121 - 125', '126 - 130', '131 - 135', '136 - 140', '141 - 145',
         '146 - 150', '151 - 155', '156 - 160', '161 - 165', '166 - 170', '171 - 175', '176 - 180',
         '181 - 185', '186 - 190', '191 - 195', '196 - 200'];
-
-    // for ($i = 40; $i < 201; $i++) {
-    //     array_push($data, $i);
-    // }
 
     return $data;
 }

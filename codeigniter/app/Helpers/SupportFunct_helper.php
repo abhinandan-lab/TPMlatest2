@@ -277,10 +277,21 @@ function get_images_with_path($picsArr, $returnSingleImg = true)
         if ($returnSingleImg) {
             if (isset($picsArr[0])) {
 
-                return 'imagerender/'.$picsArr[0]['img_name'];
+                return '/imagerender/'.$picsArr[0]['img_name'];
             }
         } else {
-            return $picsArr;
+            $temp = [];
+            foreach ($picsArr as $key => $value) {
+                array_push($temp, ['id' => $value['id'], 'img' => $value = '/imagerender/' . $value['img_name'] ]);
+            }
+            return $temp;
         }
+    }
+}
+
+function get_accountType($index) {
+    if(isset($index)) {
+        $myarr = accountTypes();
+        return $myarr[$index];
     }
 }

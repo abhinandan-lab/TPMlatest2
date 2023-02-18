@@ -343,6 +343,7 @@ class Home extends BaseController
             $removeOTPdata = [
                 'otpdata' => '',
                 'email_verified' => 1,
+                'account_status' => 1,
             ];
 
             $userModel->update($user[0]['id'], $removeOTPdata);
@@ -382,7 +383,6 @@ class Home extends BaseController
         $session = \Config\Services::session();
 
         $generatedOtp = randomNumber();
-        // echo $generatedOtp;
 
         $email =  $userrow['email'];
 
@@ -481,9 +481,7 @@ class Home extends BaseController
             $template = view("EmailTemplates/verifyOtpEmailTemplate", ['email'=>$to, 'otp'=> $generatedOtp, 'heading'=> $heading, 'para'=>$para]);
             $emailService->setMessage($template);
             if ($emailService->send()) 
-            {
-                // echo $generatedOtp;
-               
+            {               
                $userData = [
                    
                    'otpdata' => $otpHash,
@@ -511,11 +509,8 @@ class Home extends BaseController
     public function otpLogin2() {
         $data = null;   
         $session = \Config\Services::session();
-        // $emailService = \Config\Services::email();
 
-        $pageData = ['title' => 'Login with OTP'];
-        
-        
+        $pageData = ['title' => 'Login with OTP']; 
         
         if (strtolower($this->request->getMethod()) !== 'post') {
             return view('User/Headers/mainhead', ['pageData'=> $pageData]).view('User/otplogin2', [

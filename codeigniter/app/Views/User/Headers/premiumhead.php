@@ -316,7 +316,7 @@
         ?>
             <div class="primary-nav">
                 <a href="premiums" class="<?php if($path == 'premiums') {echo 'active';}?> ">
-                    <i class="fa-solid fa-house"></i>
+                <i class="fa-solid fa-crown"></i>
                     <p>Premium</p>
                 </a>
                 <a href="profiles" class="<?php if($path == 'matches') {echo 'active';}?>">
