@@ -19,7 +19,6 @@ class ProfileNotLikes extends Migration
             'user_id' => [
                 'type' => 'INT',
                 'constraint' => 15,
-                'null' => false,
             ],
 
             'notlikes_id' => [

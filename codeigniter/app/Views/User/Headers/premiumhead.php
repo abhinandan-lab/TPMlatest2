@@ -5,15 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JESUS </title>
+    <title><?= $pageData['title']?> </title>
 
     <link rel="stylesheet" href="<?=base_url();?>/asset/css/premium.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
         integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 
     <style>
@@ -313,26 +311,26 @@
 
         $request = \Config\Services::request();
         $path = $request->getPath();
-        echo $path;
+        // echo $path;
 
         ?>
             <div class="primary-nav">
-                <a href="#" class="<?php if($path == 'profiles' || $path == '') {echo 'active';}?>">
+                <a href="premiums" class="<?php if($path == 'premiums') {echo 'active';}?> ">
                     <i class="fa-solid fa-house"></i>
-                    <p>Home</p>
+                    <p>Premium</p>
                 </a>
-                <a href="#" class="<?php if($path == 'matches') {echo 'active';}?>">
+                <a href="profiles" class="<?php if($path == 'matches') {echo 'active';}?>">
                     <i class="fa-solid fa-user-group"></i>
                     <p>Matches</p>
                 </a>
                 
-                <a href="#" class="<?php if($path == 'inbox') {echo 'active';}?>">
+                <a href="inbox" class="<?php if($path == 'inbox') {echo 'active';}?>">
                     <i class="fa-solid fa-envelope"></i>
                     <p>Inbox</p>
                 </a>
-                <a href="premiums" class="<?php if($path == 'premiums') {echo 'active';}?> ">
+                <a href="home" class="<?php if($path == 'profiles' || $path == '') {echo 'active';}?>">
                     <i class="fa-solid fa-house"></i>
-                    <p>Premium</p>
+                    <p>Home</p>
                 </a>
 
             </div>

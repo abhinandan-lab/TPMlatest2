@@ -121,7 +121,7 @@ class UserInfo extends Migration
 
             'user_id' => [
                 'type' => 'INT',
-                'constraint' => 5,
+                'constraint' => 15,
             ],
 
             'created_at datetime default current_timestamp',

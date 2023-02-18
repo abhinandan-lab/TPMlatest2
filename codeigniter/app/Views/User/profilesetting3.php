@@ -1,7 +1,3 @@
-<?=$this->extend("User/userSettinghead")?>
-
-<?=$this->section("content")?>
-
 
     <?php
         $session = \Config\Services::session();
@@ -155,4 +151,3 @@ $('.js-example-basic-multiple').select2();
 </body>
 
 </html>
-<?=$this->endSection()?>

@@ -1,7 +1,3 @@
-<?=$this->extend("User/userSettinghead")?>
-
-<?=$this->section("content")?>
-
 
     <?php
         $session = \Config\Services::session();
@@ -86,4 +82,3 @@
 </body>
 
 </html>
-<?=$this->endSection()?>

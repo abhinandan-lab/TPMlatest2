@@ -1,14 +1,10 @@
-<?=$this->extend("User/premiumhead")?>
-
-<?=$this->section("content")?>
-
 
     <?php
 $session = \Config\Services::session();
 $request = \Config\Services::request();
 
 ?>
-
+ 
 <?php display_flash_msg();?>
 
 <div class="foot">
@@ -79,4 +75,3 @@ $request = \Config\Services::request();
 </body>
 
 </html>
-<?=$this->endSection()?>

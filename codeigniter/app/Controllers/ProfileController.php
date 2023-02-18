@@ -6,7 +6,7 @@ use App\Models\User;
 use App\Models\UserInfo;
 use App\Models\UserPhoto;
 use App\Controllers\BaseController;
-
+ 
 class ProfileController extends BaseController
 {
     protected $helpers = ['form', 'StaticData', 'SupportFunct', 'session'];
@@ -32,6 +32,8 @@ class ProfileController extends BaseController
 
 
     public function premiums() {
-        return view('User/premiums');
+        $pageData = ['title' => 'Upgrade to Premium account'];
+
+        return view('User/Headers/premiumhead', ['pageData'=> $pageData]).view('User/premiums');
     }
 }

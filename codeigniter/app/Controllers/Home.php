@@ -5,6 +5,8 @@ use \Config\Services;
 
 use \App\Models\User;
 use \App\Models\UserInfo;
+use \App\Models\PartnerPreference;
+
 
 class Home extends BaseController
 {
@@ -16,8 +18,8 @@ class Home extends BaseController
         $pageData = ['title' => 'Register new Account'];
         
         // if_has_session_then_redirect('userLoggedin', 'profiles');
-        if(session()->has('userLoggedin')) {
-            return redirect()->to('profiles'); 
+        if(session()->has('userLoggedin')) { 
+            // return redirect()->to('profiles'); 
         }
         
         $data['profileFor'] = profileFor();
@@ -139,11 +141,10 @@ class Home extends BaseController
                 $loginuser = [
                     'user_id' => $getUserRow['id'], 
                     'userLoggedin' => true,
+                    'userEmail' => $getUserRow['email'],
                 ];
 
                 $session->set($loginuser);
-                // $session->markAsTempdata(['user_id', 'userLoggedin'],  7,890,000);
-
                 $session->setFlashdata('infomsg', 'Welcome Back');
                 return redirect()->to('/profiles'); 
             }
@@ -210,6 +211,8 @@ class Home extends BaseController
         $userInfoModel = new UserInfo();
         $userModel = new User();
 
+        $userPartnerPreference = new PartnerPreference();
+
         $email =  $_POST['email'];
         $hashPassword = password_hash($_POST['password'], PASSWORD_DEFAULT);
         $generatedOtp = randomNumber();
@@ -239,7 +242,7 @@ class Home extends BaseController
                 'password' => $hashPassword,
                 'account_status' => 0,
                 'email_verified' => 0,
-                'account_type' => 0,
+                'account_type' => 0, // free
             ];
             
             $userModel->insert($userData);
@@ -259,8 +262,20 @@ class Home extends BaseController
             
             $userInfoModel->insert($userInfoData);
 
+
+            // inserting default user_partnerPreference 
+
+            $default_PartnerPreference = [
+                'user_id' => $userid,
+            ];
+
+            $userPartnerPreference->insert($default_PartnerPreference);
+
+
+
+
             // $session->set('email', $email);
-            $session->set('user_id', $userid);
+            $session->set(['user_id', $userid, 'userEmail'=> $email]);
 
             $data = [
                 'email' => $email,
@@ -544,6 +559,7 @@ class Home extends BaseController
                 $loginuser = [
                     'user_id' => $getUserRow['id'],
                     'userLoggedin' => true,
+                    'userEmail' => $getUserRow['email'],
                 ];
 
                 $session->set($loginuser);

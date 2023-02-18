@@ -7,14 +7,14 @@ use CodeIgniter\Model;
 class PartnerPreference extends Model
 {
     protected $DBGroup          = 'default';
-    protected $table            = 'partnerpreferences';
+    protected $table            = 'partner_preference';
     protected $primaryKey       = 'id';
     protected $useAutoIncrement = true;
     protected $insertID         = 0;
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = [];
+    protected $allowedFields    = ['user_id', 'age', 'height', 'language', 'country', 'state', 'city', 'baptized'];
 
     // Dates
     protected $useTimestamps = false;

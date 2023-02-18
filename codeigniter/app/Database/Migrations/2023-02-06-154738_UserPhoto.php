@@ -23,7 +23,7 @@ class UserPhoto extends Migration
             
             'user_id' => [
                 'type' => 'INT',
-                'constraint' => 5,
+                'constraint' => 15,
             ],
 
             

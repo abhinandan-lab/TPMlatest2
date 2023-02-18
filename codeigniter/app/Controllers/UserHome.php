@@ -11,16 +11,24 @@ class UserHome extends BaseController
 
     public function index()
     {
-        return view('User/profilesetting');
+        $pageData = ['title' => 'Register new Account'];
+        return view('User/Headers/userSettinghead', ['pageData'=> $pageData])
+        .view('User/profilesetting');
     }
 
     public function editProfile() {
-        return view('User/profilesetting2');
+
+        $pageData = ['title' => 'Register new Account'];
+        
+        return view('User/Headers/userSettinghead', ['pageData'=> $pageData])
+        .view('User/profilesetting2');
         
     }
     
     public function editPartnerPreference() {
-        return view('User/profilesetting3');
+        $pageData = ['title' => 'Register new Account'];
+        return view('User/Headers/userSettinghead', ['pageData'=> $pageData])
+        .view('User/profilesetting3');
     }
 }
 

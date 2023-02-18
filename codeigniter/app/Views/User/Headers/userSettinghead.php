@@ -5,24 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JESUS </title>
+    <title><?=$pageData['title']?> </title>
 
-    
+
+    <!-- font awe some -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
     integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!-- jquery latest -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <!-- jquery ui stuffs -->
     <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
-  
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
 
+    <!-- select 2 -->
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+    <!-- my style -->
     <link rel="stylesheet" href="<?=base_url();?>/asset/css/setting.css">
 
     <style>
@@ -185,11 +187,14 @@
 
 <script>
         $(function () {
+            if(document.querySelector('#slider-range-age') == null){
+                return;
+            }
             $("#slider-range-age").slider({
                 range: true,
-                min: 10,
-                max: 50,
-                values: [15, 45],
+                min: 18,
+                max: 70,
+                values: [18, 70],
                 slide: function (event, ui) {
                     $(".ageinfo:first-child").html(ui.values[0] + " - " + ui.values[1]);
 
@@ -203,6 +208,9 @@
 
         // age
         $(function () {
+            if(document.querySelector('#slider-range-age')== null) {
+                return;
+            }
             $("#slider-range-height").slider({
                 range: true,
                 min: 10,
@@ -356,31 +364,49 @@
 
         <?php
 
-        $request = \Config\Services::request();
-        $path = $request->getPath();
-        echo $path;
+$request = \Config\Services::request();
+$path = $request->getPath();
 
-        ?>
+$temparr = explode("/",$path);
+// print_r($temparr);
+
+?>
             <div class="primary-nav">
-                <a href="#" class="<?php if($path == 'profiles' || $path == '') {echo 'active';}?>">
-                    <i class="fa-solid fa-house"></i>
-                    <p>Home</p>
-                </a>
-                <a href="#" class="<?php if($path == 'matches') {echo 'active';}?>">
-                    <i class="fa-solid fa-user-group"></i>
-                    <p>Matches</p>
-                </a>
-                
-                <a href="#" class="<?php if($path == 'inbox') {echo 'active';}?>">
-                    <i class="fa-solid fa-envelope"></i>
-                    <p>Inbox</p>
-                </a>
-                <a href="premiums" class="<?php if($path == 'premiums') {echo 'active';}?> ">
+                <a href="/premiums" class=" <?php if(in_array("premiums", $temparr)) {echo 'active';}?> ">
                     <i class="fa-solid fa-house"></i>
                     <p>Premium</p>
                 </a>
+                <a href="/profiles" class=" <?php if($path == 'profiles') {echo 'active';}?> ">
+                    <i class="fa-solid fa-user-group"></i>
+                    <p>Matches</p>
+                </a>
+
+                <a href="/inbox" class=" <?php if($path == 'inbox') {echo 'active';}?> ">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>Inbox</p>
+                </a>
+
+                <a href="/home" class=" <?php if(in_array("home", $temparr)) {echo 'active';}?> ">
+                    <i class="fa-solid fa-house"></i>
+                    <p>Home</p>
+                </a>
+            </div>
+            <div class="secondary-nav">
+                <ul>
+                    <li class=" <?php if($path == 'home') {echo 'active';}?>">
+                        <a href="/home">Settings</a>
+                    </li>
+
+                    <li class=" <?php if(in_array("edit-profile", $temparr)) {echo 'active';}?>">
+                        <a href="/home/edit-profile">Edit Profile</a>
+                    </li>
+
+                    <li class=" <?php if(in_array("partner-preference", $temparr)) {echo 'active';}?>">
+                        <a href="/home/partner-preference">Partner Preference</a>
+                    </li>
+   
+
+                </ul>
 
             </div>
         </div>
-
-    <?= $this->renderSection("content"); ?>

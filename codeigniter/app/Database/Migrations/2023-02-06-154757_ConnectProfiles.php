@@ -20,7 +20,6 @@ class ConnectProfiles extends Migration
             'user_id' => [
                 'type' => 'INT',
                 'constraint' => 15,
-                'null' => false,
             ],
 
             'connect_sent_id' => [

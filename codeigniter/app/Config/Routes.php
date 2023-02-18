@@ -32,6 +32,23 @@ $routes->set404Override();
 
 // starting from Register to profiles
 
+######################################### rotes to work on #######################################################
+
+// Home/settings
+// Home/editprofilr
+// Home/partner-prefernce
+
+// Inbox/sent-request
+// Inbox/received-request
+// Inbox/profilrs-notlikes
+// Inbox/rejected-by-others
+// Inbox
+
+// profiles
+
+// premiums
+
+######################################### end of rotes to work on #######################################################
 
 
 $routes->get('/', 'Home::register');
@@ -88,13 +105,13 @@ $routes->group('', ['filter' => 'profilefilter'], function ($routes) {
 
     // render images which are need to be secured
     $routes->match(['get', 'post'], 'imagerender/(:segment)', 'RenderImage::index/$1');
+
     $routes->get('profiles', 'ProfileController::index');
     $routes->get('premiums', 'ProfileController::premiums');
     $routes->get('premiums', 'ProfileController::premiums');
     $routes->get('home', 'UserHome::index');
     $routes->get('home/edit-profile', 'UserHome::editProfile');
-    $routes->get('home/edit-partner-preference', 'UserHome::editPartnerPreference');
-    
+    $routes->get('home/partner-preference', 'UserHome::editPartnerPreference');
     
 
 });

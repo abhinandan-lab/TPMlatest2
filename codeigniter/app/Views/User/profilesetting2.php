@@ -1,8 +1,3 @@
-<?=$this->extend("User/userSettinghead")?>
-
-<?=$this->section("content")?>
-
-
     <?php
         $session = \Config\Services::session();
         $request = \Config\Services::request();
@@ -191,4 +186,3 @@ if (!ev.target.files) return; // Do nothing.
 </body>
 
 </html>
-<?=$this->endSection()?>
