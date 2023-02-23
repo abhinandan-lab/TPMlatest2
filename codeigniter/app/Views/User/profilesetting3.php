@@ -1,16 +1,26 @@
 
-    <?php
-        $session = \Config\Services::session();
-        $request = \Config\Services::request();
+<?php
+$session = \Config\Services::session();
+$request = \Config\Services::request();
 
-        
-        // echo '<pre>';
-        // print_r($pics);
-        // echo get_images_with_path($pics);
-        // exit;
-        // echo $pics[0]['img_path'];
+// echo '<pre>';
+// print_r($userinfo);
+// print_r($data);
+// echo '</pre>';
+// print_r($pics);
+// echo get_images_with_path($pics);
+// exit;
+// echo $pics[0]['img_path'];
 
-    ?>
+//  print_r(get_images_with_path($userinfo['pics'], false));
+
+$mypics = get_images_with_path($partnerprof['pics'], false);
+
+// var_dump($userinfo['about_me']);
+
+$qualif = $data;
+
+?>
 
 <?php display_flash_msg(); ?>
 <div class="foot">

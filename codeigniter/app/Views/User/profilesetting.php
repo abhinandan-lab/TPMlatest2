@@ -33,7 +33,7 @@
             </div>
             <div>
 
-                <a href="/home/edit-partner-preference">Edit Preference</a>
+                <a href="/home/partner-preference">Edit Preference</a>
             </div>
         </div>
 

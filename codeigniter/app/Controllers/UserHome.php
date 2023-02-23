@@ -31,7 +31,7 @@ class UserHome extends BaseController
 
         
         // echo '<pre>';
-        print_r($getUserInfo);
+        // print_r($getUserInfo);
         // die();
 
 
@@ -43,10 +43,17 @@ class UserHome extends BaseController
 
         $pageData = ['title' => 'Edit user settings'];
 
+        $data['qualif'] = qualifications();
+        $data['height'] = height();
+        $data['occupation'] = occupation();
+        $data['weight'] = weight();
+        $data['country'] = getCountries();
+
         $useremail = $_SESSION['userEmail'];
         $user_model = new User();
         $userInfo_model = new UserInfo();
         $userphoto_model = new UserPhoto();
+
     
         $getUserRow = $user_model->where('email', $useremail)->first();
         $getUserphotos =  $userphoto_model->where('user_id', $getUserRow['id'])->findAll();
@@ -55,18 +62,41 @@ class UserHome extends BaseController
         $getUserInfo = array_merge($getUserInfo, $getUserRow, ['pics' => $getUserphotos]);
 
         // echo '<pre>';
-        print_r($getUserInfo);
+        // print_r($getUserInfo);
+        // echo '</pre>';
         // die();
         
         return view('User/Headers/userSettinghead', ['pageData'=> $pageData])
-        .view('User/profilesetting2', ['userinfo'=> $getUserInfo]);
+        .view('User/profilesetting2', ['userinfo'=> $getUserInfo, 'data' => $data]);
         
     }
     
     public function editPartnerPreference() {
-        $pageData = ['title' => 'Register new Account'];
+        $pageData = ['title' => 'Your Partner Preference'];
+
+
+        echo '<pre>';
+        print_r($_SESSION);
+
+
+        $partnerPref = new PartnerPreference();
+        $usermodel = new User();
+
+        $userrow = $usermodel->where('email', $_SESSION['userEmail'])->first();
+        
+
+        print_r($userrow);
+        
+        $partnerprof = $partnerPref->where('user_id', $userrow['id'])->first();
+        print_r($partnerprof);
+
+
+
+
+
+
         return view('User/Headers/userSettinghead', ['pageData'=> $pageData])
-        .view('User/profilesetting3');
+        .view('User/profilesetting3', ['partnerprof' => $partnerprof]);
     }
 }
 
