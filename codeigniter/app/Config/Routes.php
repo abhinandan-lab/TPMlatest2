@@ -112,6 +112,7 @@ $routes->group('', ['filter' => 'profilefilter'], function ($routes) {
     $routes->get('home', 'UserHome::index');
     $routes->get('home/edit-profile', 'UserHome::editProfile');
     $routes->get('home/partner-preference', 'UserHome::editPartnerPreference');
+    $routes->post('home/partner-preference', 'UserHome::editPartnerPreference');
     
 
 });

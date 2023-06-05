@@ -2934,3 +2934,1842 @@ INFO - 2023-06-05 08:24:13 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2023-06-05 08:24:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-06-05 08:24:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-06-05 08:24:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:25:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:25:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:25:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-05 08:25:59 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(51): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:25:59 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profiles.php on line 96.
+ 1 APPPATH\Views\User\profiles.php(96): ucfirst(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:25:59 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profiles.php on line 96.
+ 1 APPPATH\Views\User\profiles.php(96): ucfirst(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:25:59 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profiles.php on line 102.
+ 1 APPPATH\Views\User\profiles.php(102): ucfirst(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:25:59 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(108): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:25:59 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 218.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(218): explode('|', null)
+ 2 APPPATH\Views\User\profiles.php(117): get_occupation(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:25:59 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 230.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(230): explode('|', null)
+ 2 APPPATH\Views\User\profiles.php(120): get_education(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:25:59 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profiles.php on line 126.
+ 1 APPPATH\Views\User\profiles.php(126): strtoupper(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:25:59 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 248.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(248): preg_replace('/(?<=\\S{3})\\S/', '*', null)
+ 2 APPPATH\Views\User\profiles.php(142): get_whatsapNumber('0', null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 08:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-05 08:26:00 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(51): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:26:00 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profiles.php on line 96.
+ 1 APPPATH\Views\User\profiles.php(96): ucfirst(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:26:00 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profiles.php on line 96.
+ 1 APPPATH\Views\User\profiles.php(96): ucfirst(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:26:00 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profiles.php on line 102.
+ 1 APPPATH\Views\User\profiles.php(102): ucfirst(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:26:00 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(108): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:26:00 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 218.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(218): explode('|', null)
+ 2 APPPATH\Views\User\profiles.php(117): get_occupation(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:26:00 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 230.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(230): explode('|', null)
+ 2 APPPATH\Views\User\profiles.php(120): get_education(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:26:00 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profiles.php on line 126.
+ 1 APPPATH\Views\User\profiles.php(126): strtoupper(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:26:00 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 248.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(248): preg_replace('/(?<=\\S{3})\\S/', '*', null)
+ 2 APPPATH\Views\User\profiles.php(142): get_whatsapNumber('0', null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 08:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-05 08:26:00 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(51): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:26:00 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profiles.php on line 96.
+ 1 APPPATH\Views\User\profiles.php(96): ucfirst(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:26:00 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profiles.php on line 96.
+ 1 APPPATH\Views\User\profiles.php(96): ucfirst(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:26:00 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profiles.php on line 102.
+ 1 APPPATH\Views\User\profiles.php(102): ucfirst(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:26:00 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(108): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:26:00 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 218.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(218): explode('|', null)
+ 2 APPPATH\Views\User\profiles.php(117): get_occupation(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:26:00 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 230.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(230): explode('|', null)
+ 2 APPPATH\Views\User\profiles.php(120): get_education(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:26:00 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profiles.php on line 126.
+ 1 APPPATH\Views\User\profiles.php(126): strtoupper(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:26:00 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 248.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(248): preg_replace('/(?<=\\S{3})\\S/', '*', null)
+ 2 APPPATH\Views\User\profiles.php(142): get_whatsapNumber('0', null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 08:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-05 08:26:09 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profilesetting.php on line 27.
+ 1 APPPATH\Views\User\profilesetting.php(27): ucfirst(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profilesetting.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profilesetting', [], true)
+ 5 APPPATH\Controllers\UserHome.php(39): view('User/profilesetting', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserHome->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:26:09 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profilesetting.php on line 27.
+ 1 APPPATH\Views\User\profilesetting.php(27): ucfirst(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profilesetting.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profilesetting', [], true)
+ 5 APPPATH\Controllers\UserHome.php(39): view('User/profilesetting', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserHome->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 08:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-05 08:26:10 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profilesetting.php on line 27.
+ 1 APPPATH\Views\User\profilesetting.php(27): ucfirst(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profilesetting.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profilesetting', [], true)
+ 5 APPPATH\Controllers\UserHome.php(39): view('User/profilesetting', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserHome->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:26:10 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profilesetting.php on line 27.
+ 1 APPPATH\Views\User\profilesetting.php(27): ucfirst(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profilesetting.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profilesetting', [], true)
+ 5 APPPATH\Controllers\UserHome.php(39): view('User/profilesetting', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserHome->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 08:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-05 08:26:14 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(51): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:26:14 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profiles.php on line 96.
+ 1 APPPATH\Views\User\profiles.php(96): ucfirst(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:26:14 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profiles.php on line 96.
+ 1 APPPATH\Views\User\profiles.php(96): ucfirst(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:26:14 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profiles.php on line 102.
+ 1 APPPATH\Views\User\profiles.php(102): ucfirst(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:26:14 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(108): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:26:14 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 218.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(218): explode('|', null)
+ 2 APPPATH\Views\User\profiles.php(117): get_occupation(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:26:14 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 230.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(230): explode('|', null)
+ 2 APPPATH\Views\User\profiles.php(120): get_education(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:26:14 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profiles.php on line 126.
+ 1 APPPATH\Views\User\profiles.php(126): strtoupper(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:26:14 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 248.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(248): preg_replace('/(?<=\\S{3})\\S/', '*', null)
+ 2 APPPATH\Views\User\profiles.php(142): get_whatsapNumber('0', null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 08:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-05 08:26:14 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(51): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:26:14 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profiles.php on line 96.
+ 1 APPPATH\Views\User\profiles.php(96): ucfirst(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:26:14 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profiles.php on line 96.
+ 1 APPPATH\Views\User\profiles.php(96): ucfirst(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:26:14 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profiles.php on line 102.
+ 1 APPPATH\Views\User\profiles.php(102): ucfirst(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:26:14 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(108): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:26:14 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 218.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(218): explode('|', null)
+ 2 APPPATH\Views\User\profiles.php(117): get_occupation(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:26:14 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 230.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(230): explode('|', null)
+ 2 APPPATH\Views\User\profiles.php(120): get_education(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:26:14 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profiles.php on line 126.
+ 1 APPPATH\Views\User\profiles.php(126): strtoupper(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:26:14 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 248.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(248): preg_replace('/(?<=\\S{3})\\S/', '*', null)
+ 2 APPPATH\Views\User\profiles.php(142): get_whatsapNumber('0', null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 08:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-05 08:26:14 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(51): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:26:14 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profiles.php on line 96.
+ 1 APPPATH\Views\User\profiles.php(96): ucfirst(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:26:14 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profiles.php on line 96.
+ 1 APPPATH\Views\User\profiles.php(96): ucfirst(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:26:14 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profiles.php on line 102.
+ 1 APPPATH\Views\User\profiles.php(102): ucfirst(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:26:14 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(108): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:26:14 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 218.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(218): explode('|', null)
+ 2 APPPATH\Views\User\profiles.php(117): get_occupation(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:26:14 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 230.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(230): explode('|', null)
+ 2 APPPATH\Views\User\profiles.php(120): get_education(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:26:14 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profiles.php on line 126.
+ 1 APPPATH\Views\User\profiles.php(126): strtoupper(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:26:14 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 248.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(248): preg_replace('/(?<=\\S{3})\\S/', '*', null)
+ 2 APPPATH\Views\User\profiles.php(142): get_whatsapNumber('0', null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 08:27:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:27:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-05 08:28:01 --> mysqli_sql_exception: Table 'tpm.countries' doesn't exist in F:\xampp\htdocs\TPMlatest2\codeigniter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 F:\xampp\htdocs\TPMlatest2\codeigniter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('select id, name...', 0)
+#1 F:\xampp\htdocs\TPMlatest2\codeigniter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select id, name...')
+#2 F:\xampp\htdocs\TPMlatest2\codeigniter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select id, name...')
+#3 F:\xampp\htdocs\TPMlatest2\codeigniter\app\Helpers\StaticData_helper.php(180): CodeIgniter\Database\BaseConnection->query('select id, name...')
+#4 F:\xampp\htdocs\TPMlatest2\codeigniter\app\Controllers\PersonalInfoController.php(80): getCountries()
+#5 F:\xampp\htdocs\TPMlatest2\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\PersonalInfoController->peInfoOne('1')
+#6 F:\xampp\htdocs\TPMlatest2\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersonalInfoController))
+#7 F:\xampp\htdocs\TPMlatest2\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\xampp\htdocs\TPMlatest2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-05 08:28:01 --> Table 'tpm.countries' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Helpers\StaticData_helper.php(180): CodeIgniter\Database\BaseConnection->query('select id, name from countries')
+ 2 APPPATH\Controllers\PersonalInfoController.php(80): getCountries()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PersonalInfoController->peInfoOne('1')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersonalInfoController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 08:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-05 08:28:54 --> mysqli_sql_exception: Table 'tpm.countries' doesn't exist in F:\xampp\htdocs\TPMlatest2\codeigniter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 F:\xampp\htdocs\TPMlatest2\codeigniter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('select id, name...', 0)
+#1 F:\xampp\htdocs\TPMlatest2\codeigniter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('select id, name...')
+#2 F:\xampp\htdocs\TPMlatest2\codeigniter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('select id, name...')
+#3 F:\xampp\htdocs\TPMlatest2\codeigniter\app\Helpers\StaticData_helper.php(180): CodeIgniter\Database\BaseConnection->query('select id, name...')
+#4 F:\xampp\htdocs\TPMlatest2\codeigniter\app\Controllers\PersonalInfoController.php(80): getCountries()
+#5 F:\xampp\htdocs\TPMlatest2\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\PersonalInfoController->peInfoOne('1')
+#6 F:\xampp\htdocs\TPMlatest2\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersonalInfoController))
+#7 F:\xampp\htdocs\TPMlatest2\codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\xampp\htdocs\TPMlatest2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-05 08:28:54 --> Table 'tpm.countries' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Helpers\StaticData_helper.php(180): CodeIgniter\Database\BaseConnection->query('select id, name from countries')
+ 2 APPPATH\Controllers\PersonalInfoController.php(80): getCountries()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PersonalInfoController->peInfoOne('1')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PersonalInfoController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 08:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:37:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:37:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:39:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:39:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:39:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:40:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:40:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:40:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:40:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:40:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:40:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:40:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:40:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:40:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-05 08:40:14 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(51): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:40:14 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profiles.php on line 102.
+ 1 APPPATH\Views\User\profiles.php(102): ucfirst(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:40:14 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(108): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:40:14 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 218.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(218): explode('|', null)
+ 2 APPPATH\Views\User\profiles.php(117): get_occupation(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:40:14 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profiles.php on line 126.
+ 1 APPPATH\Views\User\profiles.php(126): strtoupper(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:40:14 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 248.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(248): preg_replace('/(?<=\\S{3})\\S/', '*', null)
+ 2 APPPATH\Views\User\profiles.php(142): get_whatsapNumber('0', null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 08:40:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-05 08:40:14 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(51): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:40:14 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profiles.php on line 102.
+ 1 APPPATH\Views\User\profiles.php(102): ucfirst(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:40:14 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(108): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:40:14 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 218.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(218): explode('|', null)
+ 2 APPPATH\Views\User\profiles.php(117): get_occupation(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:40:14 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profiles.php on line 126.
+ 1 APPPATH\Views\User\profiles.php(126): strtoupper(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:40:14 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 248.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(248): preg_replace('/(?<=\\S{3})\\S/', '*', null)
+ 2 APPPATH\Views\User\profiles.php(142): get_whatsapNumber('0', null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 08:40:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-05 08:40:14 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(51): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:40:14 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profiles.php on line 102.
+ 1 APPPATH\Views\User\profiles.php(102): ucfirst(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:40:14 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(108): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:40:14 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 218.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(218): explode('|', null)
+ 2 APPPATH\Views\User\profiles.php(117): get_occupation(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:40:14 --> [DEPRECATED] strtoupper(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profiles.php on line 126.
+ 1 APPPATH\Views\User\profiles.php(126): strtoupper(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:40:14 --> [DEPRECATED] preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 248.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(248): preg_replace('/(?<=\\S{3})\\S/', '*', null)
+ 2 APPPATH\Views\User\profiles.php(142): get_whatsapNumber('0', null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 08:40:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:40:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:40:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:41:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:41:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:41:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:41:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-05 08:41:28 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(51): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:41:28 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profiles.php on line 102.
+ 1 APPPATH\Views\User\profiles.php(102): ucfirst(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:41:28 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(108): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 08:41:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:41:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-05 08:41:28 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(51): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:41:28 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profiles.php on line 102.
+ 1 APPPATH\Views\User\profiles.php(102): ucfirst(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:41:28 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(108): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 08:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-05 08:41:41 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(51): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:41:41 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profiles.php on line 102.
+ 1 APPPATH\Views\User\profiles.php(102): ucfirst(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:41:41 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(108): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 08:41:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:41:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-05 08:41:42 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(51): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:41:42 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profiles.php on line 102.
+ 1 APPPATH\Views\User\profiles.php(102): ucfirst(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:41:42 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(108): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 08:43:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-05 08:43:23 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(51): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:43:23 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profiles.php on line 102.
+ 1 APPPATH\Views\User\profiles.php(102): ucfirst(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:43:23 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(108): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 08:43:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:43:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-05 08:43:24 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(51): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:43:24 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profiles.php on line 102.
+ 1 APPPATH\Views\User\profiles.php(102): ucfirst(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:43:24 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(108): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 08:43:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:43:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:43:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-05 08:43:49 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(51): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:43:49 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profiles.php on line 102.
+ 1 APPPATH\Views\User\profiles.php(102): ucfirst(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:43:49 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(108): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 08:43:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:43:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-05 08:43:49 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(51): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:43:49 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profiles.php on line 102.
+ 1 APPPATH\Views\User\profiles.php(102): ucfirst(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:43:49 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(108): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 08:43:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:43:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:43:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-05 08:43:53 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(51): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:43:53 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profiles.php on line 102.
+ 1 APPPATH\Views\User\profiles.php(102): ucfirst(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:43:53 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(108): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 08:43:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-05 08:43:53 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(51): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:43:53 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profiles.php on line 102.
+ 1 APPPATH\Views\User\profiles.php(102): ucfirst(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:43:53 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(108): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 08:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-05 08:44:38 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(51): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:44:38 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profiles.php on line 103.
+ 1 APPPATH\Views\User\profiles.php(103): ucfirst(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:44:38 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(109): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 08:44:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:44:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-05 08:44:38 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(51): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:44:38 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profiles.php on line 103.
+ 1 APPPATH\Views\User\profiles.php(103): ucfirst(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:44:38 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(109): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 08:44:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-05 08:44:46 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(51): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:44:46 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profiles.php on line 102.
+ 1 APPPATH\Views\User\profiles.php(102): ucfirst(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:44:46 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(108): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 08:44:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-05 08:44:47 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(51): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:44:47 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profiles.php on line 102.
+ 1 APPPATH\Views\User\profiles.php(102): ucfirst(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:44:47 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(108): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 08:47:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-05 08:47:48 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(51): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:47:48 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profiles.php on line 102.
+ 1 APPPATH\Views\User\profiles.php(102): ucfirst(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:47:48 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(108): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 08:47:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:47:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-05 08:47:48 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(51): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:47:48 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profiles.php on line 102.
+ 1 APPPATH\Views\User\profiles.php(102): ucfirst(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:47:48 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(108): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 08:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-05 08:47:52 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(51): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:47:52 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profiles.php on line 102.
+ 1 APPPATH\Views\User\profiles.php(102): ucfirst(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:47:52 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(108): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 08:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-05 08:47:52 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(51): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:47:52 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profiles.php on line 102.
+ 1 APPPATH\Views\User\profiles.php(102): ucfirst(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-05 08:47:52 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(108): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 08:47:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:47:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:47:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:48:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:48:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:48:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:48:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:48:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:48:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:48:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:48:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:48:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:48:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 08:48:59 --> Undefined array key "pics"
+in APPPATH\Views\User\profilesetting3.php on line 17.
+ 1 APPPATH\Views\User\profilesetting3.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pics"', 'APPPATH\\Views\\User\\profilesetting3.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profilesetting3.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profilesetting3', [], true)
+ 5 APPPATH\Controllers\UserHome.php(99): view('User/profilesetting3', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserHome->editPartnerPreference()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 08:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 08:48:59 --> Undefined array key "pics"
+in APPPATH\Views\User\profilesetting3.php on line 17.
+ 1 APPPATH\Views\User\profilesetting3.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pics"', 'APPPATH\\Views\\User\\profilesetting3.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profilesetting3.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profilesetting3', [], true)
+ 5 APPPATH\Controllers\UserHome.php(99): view('User/profilesetting3', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserHome->editPartnerPreference()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 08:49:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:49:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:49:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:49:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 08:49:15 --> Undefined array key "pics"
+in APPPATH\Views\User\profilesetting3.php on line 17.
+ 1 APPPATH\Views\User\profilesetting3.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pics"', 'APPPATH\\Views\\User\\profilesetting3.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profilesetting3.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profilesetting3', [], true)
+ 5 APPPATH\Controllers\UserHome.php(99): view('User/profilesetting3', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserHome->editPartnerPreference()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 08:49:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 08:49:15 --> Undefined array key "pics"
+in APPPATH\Views\User\profilesetting3.php on line 17.
+ 1 APPPATH\Views\User\profilesetting3.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pics"', 'APPPATH\\Views\\User\\profilesetting3.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profilesetting3.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profilesetting3', [], true)
+ 5 APPPATH\Controllers\UserHome.php(99): view('User/profilesetting3', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserHome->editPartnerPreference()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 08:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 08:51:52 --> Undefined array key "pics"
+in APPPATH\Views\User\profilesetting3.php on line 17.
+ 1 APPPATH\Views\User\profilesetting3.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pics"', 'APPPATH\\Views\\User\\profilesetting3.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profilesetting3.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profilesetting3', [], true)
+ 5 APPPATH\Controllers\UserHome.php(99): view('User/profilesetting3', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserHome->editPartnerPreference()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 08:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 08:51:52 --> Undefined array key "pics"
+in APPPATH\Views\User\profilesetting3.php on line 17.
+ 1 APPPATH\Views\User\profilesetting3.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pics"', 'APPPATH\\Views\\User\\profilesetting3.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profilesetting3.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profilesetting3', [], true)
+ 5 APPPATH\Controllers\UserHome.php(99): view('User/profilesetting3', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserHome->editPartnerPreference()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 08:53:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:53:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:53:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:53:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:53:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:53:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:53:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:53:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:53:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 08:53:56 --> Undefined array key "pics"
+in APPPATH\Views\User\profilesetting3.php on line 17.
+ 1 APPPATH\Views\User\profilesetting3.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pics"', 'APPPATH\\Views\\User\\profilesetting3.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profilesetting3.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profilesetting3', [], true)
+ 5 APPPATH\Controllers\UserHome.php(99): view('User/profilesetting3', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserHome->editPartnerPreference()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 08:53:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 08:53:56 --> Undefined array key "pics"
+in APPPATH\Views\User\profilesetting3.php on line 17.
+ 1 APPPATH\Views\User\profilesetting3.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pics"', 'APPPATH\\Views\\User\\profilesetting3.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profilesetting3.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profilesetting3', [], true)
+ 5 APPPATH\Controllers\UserHome.php(99): view('User/profilesetting3', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserHome->editPartnerPreference()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 08:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 08:54:18 --> Undefined variable $data
+in APPPATH\Views\User\profilesetting3.php on line 21.
+ 1 APPPATH\Views\User\profilesetting3.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\User\\profilesetting3.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profilesetting3.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profilesetting3', [], true)
+ 5 APPPATH\Controllers\UserHome.php(99): view('User/profilesetting3', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserHome->editPartnerPreference()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 08:54:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 08:54:19 --> Undefined variable $data
+in APPPATH\Views\User\profilesetting3.php on line 21.
+ 1 APPPATH\Views\User\profilesetting3.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\User\\profilesetting3.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profilesetting3.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profilesetting3', [], true)
+ 5 APPPATH\Controllers\UserHome.php(99): view('User/profilesetting3', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserHome->editPartnerPreference()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 08:55:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 08:55:30 --> Undefined array key "pics"
+in APPPATH\Views\User\profilesetting3.php on line 17.
+ 1 APPPATH\Views\User\profilesetting3.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pics"', 'APPPATH\\Views\\User\\profilesetting3.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profilesetting3.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profilesetting3', [], true)
+ 5 APPPATH\Controllers\UserHome.php(99): view('User/profilesetting3', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserHome->editPartnerPreference()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 08:55:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 08:55:30 --> Undefined array key "pics"
+in APPPATH\Views\User\profilesetting3.php on line 17.
+ 1 APPPATH\Views\User\profilesetting3.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pics"', 'APPPATH\\Views\\User\\profilesetting3.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profilesetting3.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profilesetting3', [], true)
+ 5 APPPATH\Controllers\UserHome.php(99): view('User/profilesetting3', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserHome->editPartnerPreference()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 08:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 08:55:50 --> Undefined variable $userinfo
+in APPPATH\Views\User\profilesetting3.php on line 15.
+ 1 APPPATH\Views\User\profilesetting3.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userinfo', 'APPPATH\\Views\\User\\profilesetting3.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profilesetting3.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profilesetting3', [], true)
+ 5 APPPATH\Controllers\UserHome.php(99): view('User/profilesetting3', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserHome->editPartnerPreference()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 08:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 08:55:50 --> Undefined variable $userinfo
+in APPPATH\Views\User\profilesetting3.php on line 15.
+ 1 APPPATH\Views\User\profilesetting3.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userinfo', 'APPPATH\\Views\\User\\profilesetting3.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profilesetting3.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profilesetting3', [], true)
+ 5 APPPATH\Controllers\UserHome.php(99): view('User/profilesetting3', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserHome->editPartnerPreference()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 08:56:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:56:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:56:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 08:56:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 09:01:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 09:01:37 --> Undefined variable $data
+in APPPATH\Controllers\UserHome.php on line 82.
+ 1 APPPATH\Controllers\UserHome.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\UserHome.php', 82)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserHome->editPartnerPreference()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 09:01:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 09:01:37 --> Undefined variable $data
+in APPPATH\Controllers\UserHome.php on line 82.
+ 1 APPPATH\Controllers\UserHome.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\UserHome.php', 82)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserHome->editPartnerPreference()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 09:02:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 09:02:06 --> Undefined variable $data
+in APPPATH\Controllers\UserHome.php on line 82.
+ 1 APPPATH\Controllers\UserHome.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\UserHome.php', 82)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserHome->editPartnerPreference()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 09:02:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 09:02:06 --> Undefined variable $data
+in APPPATH\Controllers\UserHome.php on line 82.
+ 1 APPPATH\Controllers\UserHome.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\UserHome.php', 82)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserHome->editPartnerPreference()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 09:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 09:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 09:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 09:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 09:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 09:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 09:02:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 09:02:11 --> Undefined variable $data
+in APPPATH\Controllers\UserHome.php on line 82.
+ 1 APPPATH\Controllers\UserHome.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\UserHome.php', 82)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserHome->editPartnerPreference()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 09:02:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 09:02:11 --> Undefined variable $data
+in APPPATH\Controllers\UserHome.php on line 82.
+ 1 APPPATH\Controllers\UserHome.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\UserHome.php', 82)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserHome->editPartnerPreference()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 09:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 09:02:14 --> Undefined variable $data
+in APPPATH\Controllers\UserHome.php on line 82.
+ 1 APPPATH\Controllers\UserHome.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\UserHome.php', 82)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserHome->editPartnerPreference()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 09:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 09:02:14 --> Undefined variable $data
+in APPPATH\Controllers\UserHome.php on line 82.
+ 1 APPPATH\Controllers\UserHome.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\UserHome.php', 82)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserHome->editPartnerPreference()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 09:02:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 09:02:29 --> Undefined variable $data
+in APPPATH\Controllers\UserHome.php on line 82.
+ 1 APPPATH\Controllers\UserHome.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\UserHome.php', 82)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserHome->editPartnerPreference()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 09:02:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 09:02:29 --> Undefined variable $data
+in APPPATH\Controllers\UserHome.php on line 82.
+ 1 APPPATH\Controllers\UserHome.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\UserHome.php', 82)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserHome->editPartnerPreference()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 09:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 09:03:47 --> Undefined variable $data
+in APPPATH\Controllers\UserHome.php on line 94.
+ 1 APPPATH\Controllers\UserHome.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\UserHome.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserHome->editPartnerPreference()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 09:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-05 09:03:47 --> Undefined variable $data
+in APPPATH\Controllers\UserHome.php on line 94.
+ 1 APPPATH\Controllers\UserHome.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\UserHome.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserHome->editPartnerPreference()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-05 09:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 09:03:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 09:04:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 09:04:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 09:04:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 09:04:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 09:04:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 09:04:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 09:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 09:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 09:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 09:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 09:07:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 09:07:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 09:07:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 09:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 09:07:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 09:07:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 09:07:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 09:07:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 09:07:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 09:07:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 09:07:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 09:07:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 09:07:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-05 09:07:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

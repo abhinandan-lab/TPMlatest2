@@ -14,11 +14,11 @@ $request = \Config\Services::request();
 
 //  print_r(get_images_with_path($userinfo['pics'], false));
 
-$mypics = get_images_with_path($partnerprof['pics'], false);
+// $mypics = get_images_with_path($partnerprof['pics'], false);
 
 // var_dump($userinfo['about_me']);
 
-$qualif = $data;
+// $qualif = $data;
 
 ?>
 
@@ -36,7 +36,7 @@ $qualif = $data;
         <div class="mb2"></div>
     </div>
 
-    <form>
+    <?=form_open('home/partner-preference')?> 
         <div class="aboutme mb2 editpartner">
             <div>
                 <label>Age</label>

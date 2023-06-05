@@ -75,16 +75,12 @@ class UserHome extends BaseController
         $pageData = ['title' => 'Your Partner Preference'];
 
 
-        echo '<pre>';
-        print_r($_SESSION);
-
-
         $partnerPref = new PartnerPreference();
         $usermodel = new User();
-
+        
         $userrow = $usermodel->where('email', $_SESSION['userEmail'])->first();
         
-
+        
         print_r($userrow);
         
         $partnerprof = $partnerPref->where('user_id', $userrow['id'])->first();
@@ -92,11 +88,72 @@ class UserHome extends BaseController
 
 
 
+        if (strtolower($this->request->getMethod()) !== 'post') {
+            // get request
+            // return view('User/Headers/mainhead', ['pageData'=> $pageData])
+            // .view('User/homeregister', ['validation' => null, 'data' => $data,]);
+
+            return view('User/Headers/userSettinghead', ['pageData'=> $pageData])
+            .view('User/profilesetting3', ['partnerprof' => $partnerprof, 'validation' => null]);
+        }
+        
+        $rules = [
+            'profilehtml' => [
+                'rules' => 'required',
+                'errors' => [
+                    'required'=> 'Choose for whom account is created',
+                ],
+            ],
+            
+            'dob' => [
+                'rules' => 'required',
+                'errors' => [
+                    'required'=> 'Choose your date of birth',
+                ],
+            ],
+            
+            'language' => [
+                'rules' => 'required',
+                'errors' => [
+                    'required'=> 'Choose a language you speak',
+                ],
+            ],
+            
+            'gender' => [
+                'rules' => 'required',
+                'errors' => [
+                    'required'=> 'select your gender',
+                ],
+            ],
+        ];
+        
+        
+        if (! $this->validate($rules)) {
+            // post request
+            echo '<pre>';
+            print_r($_POST);
+            echo '</pre>';
+            die;
+            return view('User/Headers/mainhead', ['pageData'=> $pageData]).view('User/homeregister', [
+                'validation' => $this->validator,  'data' => $data,
+            ]);
+        }
 
 
-
+        // echo '<pre>';
+        print_r($_SESSION);
+        
+        
+       
+        
+        
+        
+        
+        
+        
         return view('User/Headers/userSettinghead', ['pageData'=> $pageData])
         .view('User/profilesetting3', ['partnerprof' => $partnerprof]);
+        die;
     }
 }
 
