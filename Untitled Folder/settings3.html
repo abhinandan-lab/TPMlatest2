@@ -8,7 +8,7 @@
     <title>JESUS </title>
 
     <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
-    <!-- <link rel="stylesheet" href="/resources/demos/style.css"> -->
+    <link rel="stylesheet" href="/resources/demos/style.css">
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
 
@@ -17,45 +17,16 @@
     <link rel="stylesheet" href="css/setting.css">
 
 
+
+    https://codepen.io/mprestonise/pen/jOXEpM
+
+    jquery ui range slider
+
+
 </head>
 
 <body>
 
-    <script>
-        $(function () {
-            $("#slider-range-age").slider({
-                range: true,
-                min: 10,
-                max: 50,
-                values: [15, 45],
-                slide: function (event, ui) {
-                    $(".ageinfo:first-child").html(ui.values[0] + " - " + ui.values[1]);
-
-                    $('#min-age-val').val($('#slider-range-age').slider("values")[0]);
-                    $('#max-age-val').val($('#slider-range-age').slider("values")[1]);
-                }
-            });
-            $('.ageinfo:first-child').html($('#slider-range-age').slider("values")[0] + " - " + $('#slider-range-age').slider("values")[1]);
-        });
-
-
-        // age
-        $(function () {
-            $("#slider-range-height").slider({
-                range: true,
-                min: 10,
-                max: 50,
-                values: [15, 45],
-                slide: function (event, ui) {
-                    $(".heightinfo:first-child").html(ui.values[0] + "cm - " + ui.values[1] + "cm");
-
-                    $('#min-height-val').val($('#slider-range-height').slider("values")[0]);
-                    $('#max-eight-val').val($('#slider-range-height').slider("values")[1]);
-                }
-            });
-            $('.heightinfo:first-child').html($('#slider-range-height').slider("values")[0] + "cm - " + $('#slider-range-height').slider("values")[1] + "cm");
-        });
-    </script>
 
     <!-- ======= header ========== -->
 
@@ -130,6 +101,9 @@
                     <div class="aboutme mb2 editpartner">
                         <div>
                             <label>Age</label>
+                            <label for="mileageRange">Mileage Range:</label>
+                            <input type="text" id="mileageRange" readonly>
+                            <div id="mileage-range" class="slider"></div>
                             <div class="rangebox">
                                 <div class="ageinfo">
                                     <p>14</p>
@@ -155,7 +129,8 @@
                             <label>Language</label>
                             <div class="rangebox">
                                 <div class="multisel">
-                                    <select style="width:100%;" class="js-example-basic-multiple" name="states[]" multiple="multiple">
+                                    <select style="width:100%;" class="js-example-basic-multiple" name="states[]"
+                                        multiple="multiple">
                                         <option value="AL">Hindi</option>
                                         <option value="WY">Englsih</option>
                                         <option value="WY">Marathi</option>
@@ -176,7 +151,8 @@
                                 <label>Country</label>
                                 <div class="rangebox">
                                     <div class="multisel">
-                                        <select style="width:100%;" class="js-example-basic-multiple" name="states[]" multiple="multiple">
+                                        <select style="width:100%;" class="js-example-basic-multiple" name="states[]"
+                                            multiple="multiple">
                                             <option value="AL">Hindi</option>
                                             <option value="WY">Englsih</option>
                                             <option value="WY">Marathi</option>
@@ -188,11 +164,12 @@
                                         </select>
                                     </div>
                                 </div>
-    
+
                                 <label>State</label>
                                 <div class="rangebox">
                                     <div class="multisel">
-                                        <select style="width:100%;" class="js-example-basic-multiple" name="states[]" multiple="multiple">
+                                        <select style="width:100%;" class="js-example-basic-multiple" name="states[]"
+                                            multiple="multiple">
                                             <option value="AL">Hindi</option>
                                             <option value="WY">Englsih</option>
                                             <option value="WY">Marathi</option>
@@ -204,11 +181,12 @@
                                         </select>
                                     </div>
                                 </div>
-    
+
                                 <label>City</label>
                                 <div class="rangebox">
                                     <div class="multisel">
-                                        <select style="width:100%;" class="js-example-basic-multiple" name="states[]" multiple="multiple">
+                                        <select style="width:100%;" class="js-example-basic-multiple" name="states[]"
+                                            multiple="multiple">
                                             <option value="AL">Hindi</option>
                                             <option value="WY">Englsih</option>
                                             <option value="WY">Marathi</option>
@@ -224,8 +202,8 @@
 
 
                             <div class="det-info-inp submit mb">
-                                <input type="submit" value="Save" >
-                             </div>
+                                <input type="submit" value="Save">
+                            </div>
                         </div>
                     </div>
 
@@ -245,6 +223,14 @@
     <script>
         $(document).ready(function () {
             $('.js-example-basic-multiple').select2();
+
+
+
+
+            $("#mileage-range").slider({
+                range: true, min: 0, max: 200000, values: [0, 200000], slide: function (event, ui) { $("#mileageRange").val(ui.values[0] + " - " + ui.values[1]); }
+            });
+            $("#mileageRange").val($("#mileage-range").slider("values", 0) + " - " + $("#mileage-range").slider("values", 1));
         });
     </script>
 
