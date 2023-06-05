@@ -287,8 +287,10 @@ class Home extends BaseController
          else 
          {
 
-             $session->setFlashdata('errormsg', 'something went wrong! Email not sent');
-             return redirect()->to('/setemail'); 
+            $session->setFlashdata('errormsg', 'something went wrong! Email not sent');
+            echo $emailService->printDebugger();
+            // die;
+            return redirect()->to('/setemail'); 
          }
     }
 
