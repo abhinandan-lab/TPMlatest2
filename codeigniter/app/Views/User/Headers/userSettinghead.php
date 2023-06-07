@@ -186,48 +186,6 @@
 <body>
 
 <script>
-        $(function () {
-            if(document.querySelector('#slider-range-age') == null){
-                return;
-            }
-            $("#slider-range-age").slider({
-                range: true,
-                min: 18,
-                max: 70,
-                values: [18, 70],
-                slide: function (event, ui) {
-                    $(".ageinfo:first-child").html(ui.values[0] + " - " + ui.values[1]);
-
-                    $('#min-age-val').val($('#slider-range-age').slider("values")[0]);
-                    $('#max-age-val').val($('#slider-range-age').slider("values")[1]);
-                }
-            });
-            $('.ageinfo:first-child').html($('#slider-range-age').slider("values")[0] + " - " + $('#slider-range-age').slider("values")[1]);
-        });
-
-
-        // age
-        $(function () {
-            if(document.querySelector('#slider-range-age')== null) {
-                return;
-            }
-            $("#slider-range-height").slider({
-                range: true,
-                min: 10,
-                max: 50,
-                values: [15, 45],
-                slide: function (event, ui) {
-                    $(".heightinfo:first-child").html(ui.values[0] + "cm - " + ui.values[1] + "cm");
-
-                    $('#min-height-val').val($('#slider-range-height').slider("values")[0]);
-                    $('#max-eight-val').val($('#slider-range-height').slider("values")[1]);
-                }
-            });
-            $('.heightinfo:first-child').html($('#slider-range-height').slider("values")[0] + "cm - " + $('#slider-range-height').slider("values")[1] + "cm");
-        });
-    </script>
-
-<script>
     function Noti({ content, status, animation = true, timer = 4000, progress = true, bgcolor, icon = 'show' }) {
             if (timer > 10000) {
                 timer = 4000;

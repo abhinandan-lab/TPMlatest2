@@ -73,6 +73,8 @@ class UserHome extends BaseController
     
     public function editPartnerPreference() {
         $pageData = ['title' => 'Your Partner Preference'];
+        $data['language'] = language();
+        $data['countries'] = getCountries();
 
 
         $partnerPref = new PartnerPreference();
@@ -80,18 +82,19 @@ class UserHome extends BaseController
         
         $userrow = $usermodel->where('email', $_SESSION['userEmail'])->first();
         
-        
+        echo '<pre>';
         print_r($userrow);
         
         $partnerprof = $partnerPref->where('user_id', $userrow['id'])->first();
         print_r($partnerprof);
+        echo '</pre>';
 
 
 
         if (strtolower($this->request->getMethod()) !== 'post') {
             // get request
             return view('User/Headers/userSettinghead', ['pageData'=> $pageData])
-            .view('User/profilesetting3', ['partnerprof' => $partnerprof, 'validation' => null]);
+            .view('User/profilesetting3', ['partnerprof' => $partnerprof, 'validation' => null, 'data' => $data]);
         }
         
         $rules = [
@@ -138,14 +141,16 @@ class UserHome extends BaseController
             ],
         ];
 
+
+
         
         if (! $this->validate($rules)) {
             // post request
             echo '<pre>';
             print_r($_POST);
             echo '</pre>';
-            die;
-            return view('User/Headers/mainhead', ['pageData'=> $pageData]).view('User/homeregister', [
+            // die;
+            return view('User/Headers/userSettinghead', ['pageData'=> $pageData]).view('User/homeregister', [
                 'validation' => $this->validator,  'data' => $data,
             ]);
         }

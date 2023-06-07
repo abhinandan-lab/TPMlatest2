@@ -93,7 +93,7 @@
 
                 <div class="otplink">
 
-                    <a href="#">Go back </a>
+                    <a href="Javascript:void(0)">Go back </a>
                 </div>
                 
 
