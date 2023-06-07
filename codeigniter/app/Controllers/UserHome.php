@@ -90,22 +90,33 @@ class UserHome extends BaseController
 
         if (strtolower($this->request->getMethod()) !== 'post') {
             // get request
-            // return view('User/Headers/mainhead', ['pageData'=> $pageData])
-            // .view('User/homeregister', ['validation' => null, 'data' => $data,]);
-
             return view('User/Headers/userSettinghead', ['pageData'=> $pageData])
             .view('User/profilesetting3', ['partnerprof' => $partnerprof, 'validation' => null]);
         }
         
         $rules = [
-            'profilehtml' => [
+            'min-age' => [
                 'rules' => 'required',
                 'errors' => [
                     'required'=> 'Choose for whom account is created',
                 ],
             ],
             
-            'dob' => [
+            'max-age' => [
+                'rules' => 'required',
+                'errors' => [
+                    'required'=> 'Choose your date of birth',
+                ],
+            ],
+
+            'min-height' => [
+                'rules' => 'required',
+                'errors' => [
+                    'required'=> 'Choose for whom account is created',
+                ],
+            ],
+            
+            'max-height' => [
                 'rules' => 'required',
                 'errors' => [
                     'required'=> 'Choose your date of birth',
@@ -126,7 +137,7 @@ class UserHome extends BaseController
                 ],
             ],
         ];
-        
+
         
         if (! $this->validate($rules)) {
             // post request
@@ -138,6 +149,14 @@ class UserHome extends BaseController
                 'validation' => $this->validator,  'data' => $data,
             ]);
         }
+
+
+        $newPartnerPref = [
+            
+        ];
+
+
+
 
 
         // echo '<pre>';

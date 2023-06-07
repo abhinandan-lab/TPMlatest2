@@ -8,7 +8,7 @@
     <title>JESUS </title>
 
     <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
-    <link rel="stylesheet" href="/resources/demos/style.css">
+    <!-- <link rel="stylesheet" href="/resources/demos/style.css"> -->
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
 
@@ -97,23 +97,19 @@
                     <div class="mb2"></div>
                 </div>
 
-                <form>
+                <form action="">
                     <div class="aboutme mb2 editpartner">
                         <div>
                             <label>Age</label>
-                            <label for="mileageRange">Mileage Range:</label>
-                            <input type="text" id="mileageRange" readonly>
-                            <div id="mileage-range" class="slider"></div>
-                            <div class="rangebox">
-                                <div class="ageinfo">
-                                    <p>14</p>
-                                </div>
-                                <div id="slider-range-age"></div>
-
-                                <input type="hidden" value="" name="min-age" id="min-age-val">
-                                <input type="hidden" value="" name="max-age" id="max-age-val">
+                            <div class="textValue">
+                                <p>18 - 50</p>
                             </div>
-
+                            <input type="text" id="ageRange" readonly>
+                            <input type="hidden" name="age-min" id="age-min">
+                            <input type="hidden" name="age-max" id="age-max">
+                            <div id="age-range" class="slider"></div>
+                            <input type="submit" value="testt">
+                        </form>
                             <label>Height</label>
                             <div class="rangebox">
                                 <div class="heightinfo">
@@ -208,7 +204,7 @@
                     </div>
 
 
-                </form>
+                <!-- </form> -->
 
 
             </div>
@@ -227,10 +223,43 @@
 
 
 
-            $("#mileage-range").slider({
-                range: true, min: 0, max: 200000, values: [0, 200000], slide: function (event, ui) { $("#mileageRange").val(ui.values[0] + " - " + ui.values[1]); }
+            $("#age-range").slider({
+                range: true, min: 18, max: 50, values: [18, 50], slide: function (event, ui) { $("#ageRange").val(ui.values[0] + " - " + ui.values[1]); }
             });
-            $("#mileageRange").val($("#mileage-range").slider("values", 0) + " - " + $("#mileage-range").slider("values", 1));
+            $("#ageRange").val($("#age-range").slider("values", 0) + " - " + $("#age-range").slider("values", 1));
+
+            $("#ageRange").change(function () {
+                console.log($("#age-range").slider("values", 0));
+                document.querySelector('#age-min').value = $("#age-range").slider("values", 0);
+                document.querySelector('#age-max').value = $("#age-range").slider("values", 1);
+            });
+            // document.querySelector('#age-min').value = $("#age-range").slider("values", 0);
+            // document.querySelector('#age-max').value = $("#age-range").slider("values", 1);
+
+            document.querySelector('#ageRange').addEventListener("change", (event) => {
+            console.log('hi');
+        });
+
+        const selectElement = document.querySelector("#ageRange");
+
+        selectElement.addEventListener("change", (event) => {
+            // result.textContent = `You like ${event.target.value}`;
+            console.log('hhhhhh');
+        });
+
+
+        });
+
+
+        document.querySelector('#ageRange').addEventListener("change", (event) => {
+            console.log('hi');
+        });
+
+        const selectElement = document.querySelector("#ageRange");
+
+        selectElement.addEventListener("change", (event) => {
+            // result.textContent = `You like ${event.target.value}`;
+            console.log('hhhhhh');
         });
     </script>
 
