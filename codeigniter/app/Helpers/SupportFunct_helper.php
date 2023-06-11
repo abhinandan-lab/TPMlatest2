@@ -44,7 +44,8 @@ function remove_user_data($modelsArr, $id)
 function if_has_session_then_redirect($checkValue, $redirecturl, $failedRedirect = null)
 {
     if (session()->has($checkValue)) {
-        echo session()->has($checkValue);
+        // echo session()->has($checkValue);
+        // echo 'hello';
         return redirect()->to(site_url($redirecturl));
     } else {
 

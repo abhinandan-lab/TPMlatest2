@@ -1,0 +1,165 @@
+INFO - 2023-06-08 03:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 03:55:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 03:55:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 03:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-06-08 03:55:26 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(51): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-08 03:55:26 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\User\profiles.php on line 102.
+ 1 APPPATH\Views\User\profiles.php(102): ucfirst(null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-06-08 03:55:26 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Helpers\SupportFunct_helper.php on line 154.
+ 1 APPPATH\Helpers\SupportFunct_helper.php(154): strtotime(null)
+ 2 APPPATH\Views\User\profiles.php(108): get_age(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profiles.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profiles', [], true)
+ 6 APPPATH\Controllers\ProfileController.php(29): view('User/profiles', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProfileController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 03:55:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 03:55:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 03:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 03:55:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 03:56:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 03:56:31 --> Undefined array key "profileFor"
+in APPPATH\Views\User\homeregister.php on line 38.
+ 1 APPPATH\Views\User\homeregister.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "profileFor"', 'APPPATH\\Views\\User\\homeregister.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\homeregister.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/homeregister', [], true)
+ 5 APPPATH\Controllers\UserHome.php(154): view('User/homeregister', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserHome->editPartnerPreference()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 04:00:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 04:00:59 --> Undefined array key "profileFor"
+in APPPATH\Views\User\homeregister.php on line 38.
+ 1 APPPATH\Views\User\homeregister.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "profileFor"', 'APPPATH\\Views\\User\\homeregister.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\homeregister.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/homeregister', [], true)
+ 5 APPPATH\Controllers\UserHome.php(154): view('User/homeregister', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserHome->editPartnerPreference()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 04:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 04:01:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 04:01:48 --> Undefined array key "profileFor"
+in APPPATH\Views\User\homeregister.php on line 38.
+ 1 APPPATH\Views\User\homeregister.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "profileFor"', 'APPPATH\\Views\\User\\homeregister.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\homeregister.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/homeregister', [], true)
+ 5 APPPATH\Controllers\UserHome.php(154): view('User/homeregister', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserHome->editPartnerPreference()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 04:01:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 04:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 04:02:00 --> Undefined array key "profileFor"
+in APPPATH\Views\User\homeregister.php on line 38.
+ 1 APPPATH\Views\User\homeregister.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "profileFor"', 'APPPATH\\Views\\User\\homeregister.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\homeregister.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/homeregister', [], true)
+ 5 APPPATH\Controllers\UserHome.php(154): view('User/homeregister', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserHome->editPartnerPreference()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 04:02:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 04:02:44 --> Undefined array key "profileFor"
+in APPPATH\Views\User\homeregister.php on line 38.
+ 1 APPPATH\Views\User\homeregister.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "profileFor"', 'APPPATH\\Views\\User\\homeregister.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\homeregister.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/homeregister', [], true)
+ 5 APPPATH\Controllers\UserHome.php(154): view('User/homeregister', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserHome->editPartnerPreference()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 04:04:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 04:04:23 --> Undefined array key "profileFor"
+in APPPATH\Views\User\homeregister.php on line 38.
+ 1 APPPATH\Views\User\homeregister.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "profileFor"', 'APPPATH\\Views\\User\\homeregister.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\homeregister.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/homeregister', [], true)
+ 5 APPPATH\Controllers\UserHome.php(154): view('User/homeregister', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserHome->editPartnerPreference()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 04:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 04:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 04:04:32 --> Undefined array key "profileFor"
+in APPPATH\Views\User\homeregister.php on line 38.
+ 1 APPPATH\Views\User\homeregister.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "profileFor"', 'APPPATH\\Views\\User\\homeregister.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\homeregister.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/homeregister', [], true)
+ 5 APPPATH\Controllers\UserHome.php(154): view('User/homeregister', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserHome->editPartnerPreference()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 04:06:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 04:06:34 --> Undefined array key "profileFor"
+in APPPATH\Views\User\homeregister.php on line 38.
+ 1 APPPATH\Views\User\homeregister.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "profileFor"', 'APPPATH\\Views\\User\\homeregister.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\homeregister.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/homeregister', [], true)
+ 5 APPPATH\Controllers\UserHome.php(154): view('User/homeregister', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserHome->editPartnerPreference()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 04:07:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 04:07:03 --> Undefined variable $partnerprof
+in APPPATH\Views\User\profilesetting3.php on line 32.
+ 1 APPPATH\Views\User\profilesetting3.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $partnerprof', 'APPPATH\\Views\\User\\profilesetting3.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profilesetting3.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profilesetting3', [], true)
+ 5 APPPATH\Controllers\UserHome.php(154): view('User/profilesetting3', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserHome->editPartnerPreference()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 04:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-08 04:07:10 --> Undefined variable $partnerprof
+in APPPATH\Views\User\profilesetting3.php on line 32.
+ 1 APPPATH\Views\User\profilesetting3.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $partnerprof', 'APPPATH\\Views\\User\\profilesetting3.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\User\\profilesetting3.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('User/profilesetting3', [], true)
+ 5 APPPATH\Controllers\UserHome.php(154): view('User/profilesetting3', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserHome->editPartnerPreference()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 04:07:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-08 04:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

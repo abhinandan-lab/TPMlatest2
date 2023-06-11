@@ -82,12 +82,8 @@ class UserHome extends BaseController
         
         $userrow = $usermodel->where('email', $_SESSION['userEmail'])->first();
         
-        echo '<pre>';
-        print_r($userrow);
-        
         $partnerprof = $partnerPref->where('user_id', $userrow['id'])->first();
-        print_r($partnerprof);
-        echo '</pre>';
+
 
 
 
@@ -98,47 +94,47 @@ class UserHome extends BaseController
         }
         
         $rules = [
-            'min-age' => [
-                'rules' => 'required',
-                'errors' => [
-                    'required'=> 'Choose for whom account is created',
-                ],
-            ],
+            // 'min-age' => [
+            //     'rules' => 'required',
+            //     'errors' => [
+            //         'required'=> 'Choose for whom account is created',
+            //     ],
+            // ],
             
-            'max-age' => [
-                'rules' => 'required',
-                'errors' => [
-                    'required'=> 'Choose your date of birth',
-                ],
-            ],
+            // 'max-age' => [
+            //     'rules' => 'required',
+            //     'errors' => [
+            //         'required'=> 'Choose your date of birth',
+            //     ],
+            // ],
 
-            'min-height' => [
-                'rules' => 'required',
-                'errors' => [
-                    'required'=> 'Choose for whom account is created',
-                ],
-            ],
+            // 'min-height' => [
+            //     'rules' => 'required',
+            //     'errors' => [
+            //         'required'=> 'Choose for whom account is created',
+            //     ],
+            // ],
             
-            'max-height' => [
-                'rules' => 'required',
-                'errors' => [
-                    'required'=> 'Choose your date of birth',
-                ],
-            ],
+            // 'max-height' => [
+            //     'rules' => 'required',
+            //     'errors' => [
+            //         'required'=> 'Choose your date of birth',
+            //     ],
+            // ],
             
-            'language' => [
-                'rules' => 'required',
-                'errors' => [
-                    'required'=> 'Choose a language you speak',
-                ],
-            ],
+            // 'language' => [
+            //     'rules' => 'required',
+            //     'errors' => [
+            //         'required'=> 'Choose a language you speak',
+            //     ],
+            // ],
             
-            'gender' => [
-                'rules' => 'required',
-                'errors' => [
-                    'required'=> 'select your gender',
-                ],
-            ],
+            // 'gender' => [
+            //     'rules' => 'required',
+            //     'errors' => [
+            //         'required'=> 'select your gender',
+            //     ],
+            // ],
         ];
 
 
@@ -146,13 +142,12 @@ class UserHome extends BaseController
         
         if (! $this->validate($rules)) {
             // post request
-            echo '<pre>';
-            print_r($_POST);
-            echo '</pre>';
+            // echo '<pre>';
+            // print_r($_POST);
+            // echo '</pre>';
             // die;
-            return view('User/Headers/userSettinghead', ['pageData'=> $pageData]).view('User/homeregister', [
-                'validation' => $this->validator,  'data' => $data,
-            ]);
+            return view('User/Headers/userSettinghead', ['pageData'=> $pageData])
+            .view('User/profilesetting3', ['partnerprof' => $partnerprof, 'validation' => $this->validator, 'data' => $data]);
         }
 
 
@@ -165,7 +160,7 @@ class UserHome extends BaseController
 
 
         // echo '<pre>';
-        print_r($_SESSION);
+        // print_r($_SESSION);
         
         
        
@@ -175,9 +170,9 @@ class UserHome extends BaseController
         
         
         
+        // die;
         return view('User/Headers/userSettinghead', ['pageData'=> $pageData])
         .view('User/profilesetting3', ['partnerprof' => $partnerprof]);
-        die;
     }
 }
 

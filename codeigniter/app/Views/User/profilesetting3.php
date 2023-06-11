@@ -129,36 +129,14 @@ if($partnerprof['height'] != null) {
                     <label>State</label>
                     <div class="rangebox">
                         <div class="multisel">
-                            <!-- <select style="width:100%;" class="js-example-basic-multiple" name="states[]"
-                                multiple="multiple">
-                                <option value="AL">Hindi</option>
-                                <option value="WY">Englsih</option>
-                                <option value="WY">Marathi</option>
-                                <option value="WY">Telegu</option>
-                                <option value="WY">Tamil</option>
-                                <option value="WY">Malayalm</option>
-                                <option value="WY">Bengali</option>
-                                <option value="WY">Gujrati</option>
-                            </select> -->
                             <select multiple="multiple" style="width:100%;" class="js-example-basic-multiple" onchange="callCities()" name="state[]" id="state">
                             <option selected >Open to all</option>
                         </div>
                     </div>
 
-                    <label>City</label>
+                    <label>City f</label>
                     <div class="rangebox">
                         <div class="multisel">
-                            <!-- <select style="width:100%;" class="js-example-basic-multiple" name="states[]"
-                                multiple="multiple">
-                                <option value="AL">Hindi</option>
-                                <option value="WY">Englsih</option>
-                                <option value="WY">Marathi</option>
-                                <option value="WY">Telegu</option>
-                                <option value="WY">Tamil</option>
-                                <option value="WY">Malayalm</option>
-                                <option value="WY">Bengali</option>
-                                <option value="WY">Gujrati</option>
-                            </select> -->
                             <select multiple="multiple" class="js-example-basic-multiple" style="width:100%;" name="city[]" id="city">
                             <option selected disabled >All City</option>
 

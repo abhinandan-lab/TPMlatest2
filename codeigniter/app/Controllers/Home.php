@@ -14,12 +14,11 @@ class Home extends BaseController
 
     public function register()
     {
-
         $pageData = ['title' => 'Register new Account'];
         
         // if_has_session_then_redirect('userLoggedin', 'profiles');
         if(session()->has('userLoggedin')) { 
-            // return redirect()->to('profiles'); 
+            return redirect()->to('profiles'); 
         }
         
         $data['profileFor'] = profileFor();
